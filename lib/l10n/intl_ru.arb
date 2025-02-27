@@ -1,0 +1,631 @@
+{
+  "@@locale": "ru",
+  "networkException": "Ошибка интернет-соединения",
+  "loadingScreenHasNewUpdate": "Доступно новое обновление, необходимо обновить приложение\n\nВаша версия: {localVersion}\nДоступная версия {storeVersion}",
+  "@loadingScreenHasNewUpdate": {
+    "description": "Уведомление о появлении нового обновления приложения",
+    "placeholders": {
+      "localVersion": {
+        "type": "String"
+      },
+      "storeVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "loadingScreenUpdateHasNotes": "\n\nОписание: {releaseNotes}",
+  "@loadingScreenUpdateHasNotes": {
+    "description": "Описание",
+    "placeholders": {
+      "releaseNotes": {
+        "type": "String"
+      }
+    }
+  },
+  "loadingScreenUpdateDialogTitle": "Обновление",
+  "loadingScreenUpdateDialogUpdateButtonTitle": "Обновить",
+  "loadingScreenUpdateDialogDismissButtonTitle": "Позже",
+  "loadingScreenUploadingFilesStarted": "Догрузка {count} объектов начата!\nНе выключайте приложение и обеспечьте стабильное соединение с интернетом.",
+  "@loadingScreenUploadingFilesStarted": {
+    "description": "Всплывающее уведомление о начале догрузки файлов на сервер",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "loadingScreenLoadingAppTitle": "Загружаем приложение...",
+  "loadingScreenHasNewUpdateText1": "Доступно новое обновление.\n\n",
+  "loadingScreenHasNewUpdateText2": "Пожалуйста обновите приложение.\n\n",
+  "loadingScreenHasNewUpdateText3": "Обновить",
+  "loadingScreenHasBeenCriticalError1": "Произошла критическая ошибка\n",
+  "loadingScreenHasBeenCriticalError2": "Перезапустите приложение в зоне действия интернета.\nЕсли проблема сохраняется -",
+  "loadingScreenHasBeenCriticalError3": "попробуйте снова",
+  "loadingScreenHasBeenCriticalError4": " или ",
+  "loadingScreenHasBeenCriticalError5": "выгрузите файлы из приложения",
+  "loadingScreenHasBeenCriticalError6": ", а затем",
+  "loadingScreenHasBeenCriticalError7": "переустановите приложение.",
+  "loadingScreenRetrying": "Пробуем снова...",
+  "loadingScreenStartingOfflineMode": "Запуск приложения в оффлайн режиме.",
+  "loadingScreenConnectingToServer": "Соединяемся с сервером, пожалуйста подождите...",
+  "loadingScreenRetryingSending": "Повторно отправляем {progress} / {count}...",
+  "@loadingScreenRetryingSending": {
+    "placeholders": {
+      "progress": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "loginScreenTitle": "Войдите в свой аккаунт",
+  "loginScreenUserAgreement1": "Нажимая «Войти», я соглашаюсь с",
+  "loginScreenUserAgreement2": "Пользовательским соглашением",
+  "loginScreenUserAgreement3": "и с обработкой моей персональной информации на условиях",
+  "loginScreenUserAgreement4": "Политики конфиденциальности",
+  "loginScreenPrivacy1": "Нажимая «Войти», я соглашаюсь с обработкой моей персональной информации на условиях ",
+  "loginScreenPrivacy2": "Политики конфиденциальности",
+  "loginScreenSignupButtonTitle": "Зарегистрироваться",
+  "loginScreenSignupOrRecoveryPassword": " или ",
+  "loginScreenRecoveryPasswordLinkTitle": "Восстановить пароль",
+  "loginScreenRecoveryPasswordLink2": "Восстановить пароль",
+  "loginScreenPhoneLabel": "Номер телефона",
+  "loginScreenPhoneHint": "* Номер телефона",
+  "loginScreenPasswordLabel": "Пароль",
+  "loginScreenPasswordHint": "* Пароль",
+  "loginScreenSignInButtonTitle": "Войти",
+  "registerFirstScreenSmsCodeHasBeenSentNotification": "Код подтверждения отправлен на указанный номер телефона",
+  "registerFirstScreenUserAgreement1": "Нажимая «Зарегистрироваться», я соглашаюсь с",
+  "registerFirstScreenUserAgreement2": "Пользовательским соглашением",
+  "registerFirstScreenUserAgreement3": "и с обработкой моей персональной информации на условиях",
+  "registerFirstScreenUserAgreement4": "Политики конфиденциальности",
+  "registerFirstScreenPrivacy1": "Нажимая «Зарегистрироваться», я соглашаюсь с обработкой моей персональной информации на условиях ",
+  "registerFirstScreenPrivacy2": "Политики конфиденциальности",
+  "registerFirstScreenTitle": "Регистрация",
+  "registerFirstScreenLastnameLabel": "Фамилия",
+  "registerFirstScreenFirstnameLabel": "Имя",
+  "registerFirstScreenPatronymicLabel": "Отчество",
+  "registerFirstScreenCompanyLabel": "Компания",
+  "registerFirstScreenInnOfCompanyLabel": "ИНН компании",
+  "registerFirstScreenPositionLabel": "Должность",
+  "registerFirstScreenPhoneLabel": "Мобильный телефон",
+  "registerFirstScreenEmailLabel": "Email",
+  "registerFirstScreenPasswordLabel": "Пароль",
+  "registerFirstScreenPasswordConfirmationLabel": "Повторите пароль",
+  "registerFirstScreenPasswordConfirmationError": "Пароль не соответствует",
+  "registerFirstScreenSignupButtonTitle": "Зарегистрироваться",
+  "registerSecondScreenSuccessful": "Вы успешно зарегистрировались!",
+  "registerSecondScreenTitle": "Завершение регистрации",
+  "registerSecondScreenSmsCodeHasBeenSentToPhone": "Код подтверждения отправлен на указанный номер «{phone}».",
+  "@registerSecondScreenSmsCodeHasBeenSentToPhone": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "registerSecondScreenSmsCodeLabel": "Смс-код",
+  "registerSecondScreenFinishRegistrationButtonTitle": "Завершить регистрацию",
+  "addArticleScreenCreate": "Создать",
+  "addArticleScreenObjectSuccessfulCreatedMessage": "Объект успешно создан",
+  "addArticleScreenLoading": "Загрузка...",
+  "addArticleScreenInnNotFoundSelectForFillManualy": "ИНН не найден, выберите чтобы заполнить вручную",
+  "addArticleScreenEnterInn": "Введите ИНН",
+  "addArticleScreenCompanyNameLabel": "Название",
+  "addArticleScreenCompanyAddressLabel": "Адрес",
+  "helpQuestionsScreenTitle": "Вопросы и ответы",
+  "helpQuestionsScreenHasNotQuestionsAndAnswers": "Нет вопросов и ответов",
+  "previewPhotoScreenUnexpectedFileFormat": "Неизвестный формат файла или не удалось его определить",
+  "previewPhotoScreenEnterComment": "Введите текст комментария",
+  "recoveryScreenPasswordHasBeenSentOnSpecifiedPhone": "Пароль отправлен на указанный номер телефона",
+  "recoveryScreenTitle": "Восстановление пароля",
+  "recoveryScreenHintTitle": "Введите номер телефона",
+  "recoveryScreenPhoneLabel": "Номер телефона",
+  "recoveryScreenPhoneHint": "* Номер телефона",
+  "recoveryScreenSendPasswordButtonTitle": "Отправить пароль",
+  "reviewTemplateFormStepScreenRequiredInputValidation": "Обязательно для заполнения",
+  "reviewTemplateFormStepScreenEmptyDropdown": "Нет значений для выбора",
+  "reviewTemplateFormStepScreenDropdownHintText": "    Выберите вариант ответа",
+  "reviewTemplateFormStepScreenDatePickerCancelText": "Отменить",
+  "reviewTemplateFormStepScreenSaveButtonTitle": "Сохранить",
+  "reviewTemplateFormStepScreenChooseData": "Выбор даты",
+  "uploadsScreenTitle": "Загрузки",
+  "uploadsScreenEntiyActionReviewStoreTitle": "Создание проверки",
+  "uploadsScreenEntiyActionReviewInterruptTitle": "Прекращение проверки",
+  "uploadsScreenEntiyActionReviewFinishTitle": "Завершение проверки",
+  "uploadsScreenEntiyActionStepFileUploadTitle": "Файл",
+  "uploadsScreenEntiyActionLocationUploadTitle": "Местоположение",
+  "uploadsScreenEntiyActionAttachCommentsTitle": "Комментарии",
+  "uploadsScreenEntiyActionAttachViolationsTitle": "Нарушения",
+  "uploadsScreenEntiyActionDeletingFilesTitle": "Удаление файлов",
+  "uploadsScreenEntiyTypeReviewTitle": "Проверка",
+  "uploadsScreenEntiyTypeStepFileTitle": "Файл",
+  "uploadsScreenEntiyTypeLocationTitle": "Местоположение",
+  "uploadsScreenIdHasBeenCopiedMessage": "Идентификатор скопирован: {id}",
+  "@uploadsScreenIdHasBeenCopiedMessage": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "articlesScreenTitle": "Объекты",
+  "articlesScreenAvailabledArticleNotFoundCanRegister1": "Ожидайте их добавления или \n",
+  "articlesScreenAvailabledArticleNotFoundCanRegister2": "создайте самостоятельно",
+  "articlesScreenAvailabledArticleNotFoundCantRegister": "Доступные объекты отсутствуют, ожидайте их создания.",
+  "articlesScreenRegisterReviews": "Регистрация проверок на сервере...\n",
+  "articlesScreenRegisterReviewsStatus": "\nЗарегистрировано {current} из {max}",
+  "@articlesScreenRegisterReviewsStatus": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "articlesScreenRegisterReviewsFinish": "Проверки успешно зарегистрированы, загрузка файлов продолжится в автономном режиме, не выключайте приложение и интернет.\n",
+  "articlesScreenRegisterReviewsFinishGoBack": "Вернуться в приложение",
+  "articlesScreenRegisterReviewsUnxpectedException": "Во время регистрации проверок произошла ошибка, попробуйте позже.\n",
+  "articlesScreenRegisterReviewsUnxpectedExceptionGoBack": "Вернуться в приложение",
+  "articlesScreenNetworkException": "Подключение к Интернету отсутствует.\nЗадачи недоступны.",
+  "articlesScreenUploadsButtonTitle": "Загрузки",
+  "articlesScreenHasRequestedReviews": "Есть запрошенные проверки",
+  "articlesScreenHasNotFinishedReviews": "Есть незавершенные проверки",
+  "articlesScreenCreateReviewButtonTitle": "Создать проверку",
+  "articlesScreenSearchFieldLabel": "Поиск",
+  "articlesScreenSearchEmpty": "Ничего не найдено",
+  "notificationsScreenTitle": "События",
+  "notificationsScreenYetHaveNotNotifications": "У вас еще нет уведомлений",
+  "helpScreenTitle": "Помощь",
+  "helpScreenQuestionsAndAnswers": "Вопросы и ответы",
+  "helpScreenWriteEmail": "Напишите нам на почту",
+  "helpScreenCallUs": "Позвоните нам",
+  "helpScreenExportFilesButtonTitle": "Выгрузить файлы",
+  "unexpectedException": "Произошла какая-то ошибка",
+  "helpScreenClearedMemoryToast": "Удалено {megabytes} мб.",
+  "@helpScreenClearedMemoryToast": {
+    "placeholders": {
+      "megabytes": {
+        "type": "int"
+      }
+    }
+  },
+  "chooseCreatingArticleType": "Выберите тип объекта",
+  "noAvailableArticleTypes": "Нет доступных типов объектов осмотра для создания.\nСвяжитесь с технической поддержкой\nна странице «Помощь»",
+  "choosingCreatingArticleTypeInternetException": "Подключение к Интернету отсутствует.\nТипы объектов осмотра недоступны.",
+  "chooseReviwTemplateInternetException": "Ошибка интернет-соединения",
+  "chooseReviwTemplate": "Выберите шаблон",
+  "noAvailableReviwTemplatesForThisArticle": "Для данного объекта нет доступных шаблонов осмотров",
+  "chooseReviewTemplateNoInternet": "Подключение к Интернету отсутствует.\nВыбор шаблона осмотра недоступен.",
+  "chooseReviwTemplateScreenContinueReview": "Нажмите чтобы продолжить построение проверки",
+  "chooseReviewTemplateScreenAwaitForContinue": "Ожидает выполнения",
+  "chooseReviewTemplateScreenAvailable": "Доступно для самостоятельной проверки",
+  "helpCreateMessageScreenYourMessageSended": "Ваше сообщение отправлено!",
+  "helpCreateMessageScreenInternetException": "Ошибка интернет-соединения",
+  "helpCreateMessageScreenSendMessage": "Отправить сообщение",
+  "helpCreateMessageScreenPhoneNumber": "Номер телефона",
+  "helpCreateMessageScreenPhoneNumberDescription": "Укажите, пожалуйста, номер телефона для обратной связи.",
+  "helpCreateMessageScreenMessage": "Текст сообщения",
+  "helpCreateMessageScreenMessageDescription": "Изложите, пожалуйста, суть обращения в 2-3 предложениях.",
+  "helpCreateMessageScreenSend": "Отправить",
+  "helpScreenSendMessage": "Отправить сообщение",
+  "helpScreenCleanMemory": "Очистить память",
+  "helpScreenCleanMemoryAreYouSure": "Вы уверены что хотите удалить все файлы?",
+  "helpScreenCleanMemoryProccessIsIrrevirsable": "Кэшированные и неотправленные файлы будут утеряны, процесс необратим.",
+  "helpScreenCleanMemoryNo": "Нет",
+  "helpScreenCleanMemoryYes": "Да",
+  "helpInsuranceCase": "Страховой случай",
+  "reviewStepsCreateScreenNewStep": "Создание нового шага",
+  "reviewStepsCreateScreenName": "Название",
+  "reviewStepsCreateScreenDescription": "Краткое описание",
+  "reviewStepsCreateScreenPhoto": "Фото",
+  "reviewStepsCreateScreenVideo": "Видео",
+  "reviewStepsCreateScreenDocumentScan": "Сканировать документ",
+  "reviewStepsCreateScreenFile": "Файл",
+  "reviewStepsCreateScreenCreate": "Создать",
+  "uploadsScreenUploadsScreenIsEmpty": "Список загрузок пуст",
+  "articlesScreenSendSavedArticles": "Отправить сохраненные проверки",
+  "articlesScreenArticlesCount": "{howMany,plural, =1{{howMany} проверка}=2{{howMany} проверки}other{{howMany} проверок}}",
+  "@articlesScreenArticlesCount": {
+    "placeholders": {
+      "howMany": {
+        "type": "int"
+      }
+    }
+  },
+  "articlesScreenAwaitOfSending": "в ожидании отправки",
+  "articlesScreenSearch": "Поиск",
+  "articlesScreenNothingFound": "К сожалению ничего не найдено.",
+  "onCenterWidgetUndefined": "undefined",
+  "profileScreenSurname": "Фамилия",
+  "profileScreenName": "Имя",
+  "profileScreenPatronymic": "Отчество",
+  "profileScreenCompanyInn": "ИНН компании",
+  "profileScreenJobTitle": "Должность",
+  "profileScreenPhoneNumber": "Мобильный телефон",
+  "profileScreenEmail": "Email",
+  "profileScreenPassword": "Пароль",
+  "profileScreenRepeatPassword": "Повторите пароль",
+  "profileScreenSave": "Сохранить",
+  "makeDocumentPageAndroidScan": "Сканирование",
+  "makeDocumentPageAndroidCropTitle": "Редактирование",
+  "makeDocumentPageAndroidBWTitle": "Ч/Б",
+  "makeDocumentPageAndroidCropReset": "Отменить",
+  "makeDocumentPageTitle": "Создание копии документа",
+  "makeMediaPageCameraException": "Ошибка камеры",
+  "makeMediaPageStandBy": "Происходит обработка и сохранение, не закрывайте приложение, дождитесь завершения",
+  "makeMediaPageCameraAccesException": "Нет доступа к камере",
+  "makeMediaPageOpenAppSettings": "Открыть настройки приложения",
+  "makeMediaPageMicAccesException": "Нет доступа к микрофону",
+  "makeMediaPageVideo": "Видеозапись",
+  "makeMediaPagePhoto": "Фото",
+  "makeMediaPageSomethingWentWrong": "Произошла какая-то ошибка",
+  "makeMediaPageUndefined": "undefined",
+  "makeReportPageLowSpace": "Осталось мало свободного места: {freeDiskSpace} мб.",
+  "@makeReportPageLowSpace": {
+    "placeholders": {
+      "freeDiskSpace": {
+        "type": "String"
+      }
+    }
+  },
+  "makeReportPageHugeFile": "Файл {path} имеет вес более {mbLimit} мб. Отправка невозможна.",
+  "@makeReportPageHugeFile": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      },
+      "mbLimit": {
+        "type": "String"
+      }
+    }
+  },
+  "makeReportPageMakePhoto": "Сделать фото",
+  "makeReportPageMakeAdditionalPhoto": "Сделать доп. фото",
+  "makeReportPageRemakePhoto": "Переснять фото",
+  "makeReportPageMissedWithComments": "Пропущен c комментарием: \r\n{comments}",
+  "@makeReportPageMissedWithComments": {
+    "placeholders": {
+      "comments": {
+        "type": "String"
+      }
+    }
+  },
+  "makeReportPageRemakeVideo": "Записать видео",
+  "makeReportPageMakeAdditionalVideo": "Записать доп. видео",
+  "makeReportPageTapToWatch": "Нажмите для просмотра",
+  "makeReportPageMakeScan": "Сделать скан",
+  "makeReportPageMakeAdditionalScan": "Сделать доп. скан",
+  "makeReportPageRemakeScan": "Переснять скан",
+  "makeReportPageScan": "Скан",
+  "makeReportPageAddFile": "Добавить файл",
+  "makeReportPageAddAnotherFile": "Добавить доп. файл",
+  "makeReportPageChooseAnotherFile": "Выбрать другой файл",
+  "makeReportPageFile": "Файл",
+  "makeReportPageFillTheForm": "Заполнить форму",
+  "makeReportPageFillTheAnotherForm": "Заполнить доп. форму",
+  "makeReportPageTapToChange": "Нажмите для изменения",
+  "makeReportPageAdminComment": "Комментарий администратора: «{comment}»",
+  "@makeReportPageAdminComment": {
+    "placeholders": {
+      "comment": {
+        "type": "String"
+      }
+    }
+  },
+  "makeReportPageAreYouSureForExit": "Вы уверены что хотите выйти?",
+  "makeReportPageNo": "Нет",
+  "makeReportPageYes": "Да",
+  "makeReportPageAreYouSureForDelete": "Вы уверены что хотите удалить данную проверку?",
+  "makeReportPageLocating": "Определяю местоположение...",
+  "makeReportPageSendingData": "Отправляем данные на сервер...\nПожалуйста подождите.",
+  "makeReportPageAddStep": "Добавить шаг",
+  "makeReportPageIssueOccured": "Выявлено нарушение",
+  "makeReportPageSkipAndFinish": "Пропустить и завершить",
+  "makeReportPageFinish": "Завершить",
+  "makeReportPageContinue": "Продолжить",
+  "makeReportPageSkip": "Пропустить",
+  "makeReportPageReasonForSkip": "Укажите причину пропуска",
+  "makeReportPageCancel": "Отменить",
+  "makeReportPageSend": "Отправить",
+  "makeReportPageReportIsCreated": "Спасибо! Проверка создана!",
+  "makeReportPageRepeatableReport": "Повторяемый осмотр",
+  "makeReportPageAnotherReportWithThisTemplate": "Хотите провести еще один осмотр по данному шаблону?",
+  "makeReportPagePopupMessage": "Для завершения проверки необходимо пройти обязательные шаги",
+  "articlesScreenSawDownloads": "Просмотреть загрузки",
+  "articlesScreenNeedToChooseCompany": "Для начала необходимо выбрать компанию",
+  "helpScreenNeedToChooseCompany": "Для начала нужно выбрать компанию на экране «Объекты»",
+  "articleAccountSwitcherChooseCompany": "Выберите компанию",
+  "myTextFieldDefaultTextHint": "Введите текст",
+  "myTextFieldDefaultNumberHint": "Введите число",
+  "myTextFieldDefaultDateHint": "Введите дату",
+  "makeReportPageNotEnoughDishSpace": "Недостаточно свободного места",
+  "makeReportPageHaveNotLocationPermission": "Недостаточно прав для определения местоположения",
+  "makeReportPageUndefinedState": "Неопределенное состояние",
+  "makeReportPageOpenAppSettings": "Открыть настройки приложения",
+  "videoProcessing": "Обработка видео",
+  "ok": "ОК",
+  "mediaFilesDoNotSaved": "Медиафайлы не сохранены. Сохранить?",
+  "tasksScreenAppBarTitle": "Задачи",
+  "tasksScreenTabMyTasksTitle": "Мои задачи",
+  "tasksScreenTabAvailableTitle": "Доступные",
+  "tasksScreenFastFilterAssignedStatusTitle": "Назначенные",
+  "tasksScreenFastFilterAtWorkStatusTitle": "В работе",
+  "tasksScreenFastFilterRejectedStatusTitle": "Отклоненные",
+  "tasksScreenFastFilterOnInspectionStatusTitle": "На подтверждении",
+  "tasksScreenFastFilterCompletedStatusTitle": "Завершенные",
+  "taskInfoScreenDescriptionTitle": "Описание",
+  "taskInfoScreenArticleTitle": "Объект",
+  "taskInfoScreenAddressTitle": "Адрес задачи",
+  "taskInfoScreenFinishDateLimitTitle": "Срок выполнения",
+  "taskInfoScreenTakeToWorkButtonTitle": "Взять в работу",
+  "taskInfoRefuseButtonTitle": "Отказаться",
+  "tasksRowStartExecutionAt": "Старт выполнения {date}",
+  "@tasksRowStartExecutionAt": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "isCustomDateFormat": "true",
+        "format": "dd.MM.yy"
+      }
+    }
+  },
+  "tasksRowFinishExecutionAt": "Выполнить до {date}",
+  "@tasksRowFinishExecutionAt": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "isCustomDateFormat": "true",
+        "format": "dd.MM.yy"
+      }
+    }
+  },
+  "taskInfoScreenExecuteButtonTitle": "Выполнить",
+  "taskInfoScreenChangeButtonTitle": "Редактировать",
+  "taskExecutionScreenTakePhotoButtonTitle": "Сделать фото",
+  "taskExecutionScreenTakeVideoButtonTitle": "Записать видео",
+  "taskExecutionScreenTakeDocumentButtonTitle": "Сканировать документ",
+  "taskExecutionDescriptionTitle": "Описание:",
+  "taskExecutionScreenTakeFileButtonTitle": "Выбрать файл",
+  "taskExecutionFinishButtonTitle": "Завершить",
+  "taskExecutionStepDetailPhotoExampleTitle": "Фото-пример",
+  "taskExecutionStepDetailDescriptionTitle": "Описание",
+  "boolDialogDefaultApproveTitle": "Да",
+  "boolDialogDefaultDenyTitle": "Нет",
+  "taskExecutionDeleteFileDialogContent": "Вы действительно хотите удалить файл?\n\nДействие необратимо",
+  "taskDetailErrorFailedTitle": "Ошибка загрузки, попробуйте позже",
+  "alertDialogDefaultOkTitle": "OK",
+  "taskExecutionNotAllConditionsCompleted": "Для завершения задачи необходимо пройти обязательные шаги",
+  "tasksScreenErrorTitle": "Ошибка загрузки, попробуйте позже",
+  "addingTask": "Создание задачи",
+  "editingTask": "Редактирование задачи",
+  "taskType": "Тип задачи",
+  "object": "Объект",
+  "taskAddress": "Адрес задачи",
+  "deadline": "Срок выполнения",
+  "sendForApproval": "Отправить на согласование",
+  "startOfExecution": "Старт выполнения",
+  "priority": "Приоритет",
+  "create": "Создать",
+  "save": "Сохранить",
+  "pickDate": "Выберите дату",
+  "pickObject": "Выберите объект",
+  "pickTaskType": "Выберите тип задачи",
+  "pickPriority": "Выберите приоритет",
+  "enterObjectAddress": "Выберите адрес объекта",
+  "low": "Низкий",
+  "medium": "Средний",
+  "high": "Высокий",
+  "task": "Задача",
+  "notifications": "Уведомления",
+  "objects": "Объекты",
+  "tasks": "Задачи",
+  "help": "Помощь",
+  "internetConnectionError": "Ошибка интернет-соединения",
+  "minimumVideoLengthNotReached": "Не достигнута минимальная продолжительность видео",
+  "camera": "Камера",
+  "microphone": "Микрофон",
+  "location": "Местоположение",
+  "goToSettingsAndGiveAccessTo": "Для корректной работы приложения необходимо предоставить доступ:",
+  "accessGranted": "Доступ предоставлен",
+  "notAllRequiredPermitsHaveBeenIssued": "Выданы не все необходимые разрешения",
+  "maximumNumberFilesReached": "Достигнуто максимальное количество файлов данного типа",
+  "createTask": "Создать задачу",
+  "taskCreatedSuccessfully": "Задача успешно создана",
+  "main": "Главная",
+  "showAll": "Показать все",
+  "hide": "Скрыть",
+  "accountSelection": "Выбор аккаунта:",
+  "search": "Поиск",
+  "objectsWithThisNameNotFound": "Объектов с таким названием не найдено",
+  "articleRowStatusCreatedTitle": "Объект создан",
+  "articleRowStatusNeedReportTitle": "Запрошена проверка",
+  "articleRowStatusUploadingTitle": "Построение проверки начато",
+  "articleRowStatusUploadFailedTitle": "Ошибка загрузки",
+  "articleRowStatusWaitCheckingTitle": "Ожидает проверки",
+  "articleRowStatusReportDeniedTitle": "Проверка отклонена",
+  "articleRowStatusReportConfirmedTitle": "Проверка принята",
+  "articleRowStatusUndefinedTitle": "Неизвестный статус",
+  "goToCreateAnAdditionalStep": "Перейти к созданию дополнительного шага?",
+  "example": "Пример",
+  "toNextStepButtonTitle": "Далее",
+  "required": "обязательный",
+  "createAdditionalStep": "Создать дополнительный шаг",
+  "stepInfo": "Информация о шаге",
+  "notAllStepsHaveBeenCompleted": "Для завершения проверки необходимо пройти все обязательные шаги",
+  "commentText": "Текст комментария",
+  "userAgreementAndPrivacyPolicy": "Пользовательским соглашением и политикой конфиденциальности",
+  "noInternetConnectionNotifications": "Подключение к Интернету отсутствует.\nУведомления недоступны.",
+  "noAvailableTasks": "Доступные задачи отсутствуют",
+  "comment": "Комментарий",
+  "review": "Проверка",
+  "reviewTemplate": "Шаблон проверки",
+  "reviews": "Проверки",
+  "reviewsModalInfoRedirectButton": "Перейти",
+  "reviewsModalInfoLaterButton": "Позже",
+  "noChecksScheduledOrStarted": "Проверки отсутствуют. Ожидайте их назначения или создайте самостоятельно",
+  "noScheduledChecks": "Назначенные проверки отсутствуют",
+  "noInReworkChecks": "Проверки, требующие доработки, отсутствуют",
+  "noStartedChecks": "Проверки в работе отсутствуют",
+  "checksWithThisNameNotFound": "Проверки с таким названием не найдены",
+  "all": "Все",
+  "turnOnGPS": "Включите GPS",
+  "turnOnLocationServices": "Включите службы геолокации HMS Core",
+  "noAccessToGetExactLocation": "Нет доступа для получения точного местоположения",
+  "noAccessToGetLocation": "Нет доступа для получения местоположения",
+  "fillInTheField": "Заполните поле",
+  "stepType": "Тип шага",
+  "itemsMissing": "{itemsName} отсутствуют",
+  "@itemsMissing": {
+    "placeholders": {
+      "itemsName": {
+        "type": "String"
+      }
+    }
+  },
+  "itemCreationNotAvailable": "Создание {itemsName} недоступно",
+  "@itemCreationNotAvailable": {
+    "placeholders": {
+      "itemsName": {
+        "type": "String"
+      }
+    }
+  },
+  "creationOfItemsIsNotAvailableDescription": "Самостоятельное создание {itemsName} недоступно в соответствии с настройками, установленными администратором.",
+  "@creationOfItemsIsNotAvailable": {
+    "placeholders": {
+      "itemsName": {
+        "type": "String"
+      }
+    }
+  },
+  "toMain": "На главную",
+  "necessaryActionsForTask": "Необходимые действия по задаче",
+  "missingObjectsName": "объектов",
+  "missingReviewsName": "проверок",
+  "missingTasksName": "задач",
+  "waitForTheirAppointmentOr": "Ожидайте их назначения или\n",
+  "error": "Ошибка:",
+  "locationDetermining": "Местоположение определяется",
+  "pleaseWait": "Пожалуйста, подождите",
+  "locatingDescription": "Скорость определения местоположения зависит от текущих условий: доступности спутников, облачности, помех в виде зданий.",
+  "locatingRecommendation": "Если вы находитесь внутри помещения, подойдите к окну или выйдите на улицу.",
+  "startReviewWithoutInitialLocation": "В данный момент не удалось определить местоположение. Попытки  будут производиться в течение прохождения Проверки.",
+  "accuracyHigh": "Высокая",
+  "accuracyMedium": "Средняя",
+  "accuracyLow": "Низкая",
+  "tryAgain": "Повторить попытку",
+  "proceedToReview": "Перейти к Проверке",
+  "failedToDetermineLocation": "Не удалось определить местоположение",
+  "haveNoTaskTypesAvailable": "Нет доступных типов задач",
+  "haveNoTemplatesAvailable": "Нет доступных шаблонов",
+  "haveNoArticlesAvailable": "Нет доступных объектов",
+  "reviewOrTaskCanNotBeCreatedWithoutAvailableArticles": "Без доступных Объектов невозможно создать проверку или задачу",
+  "independentCreationArticlesIsNotAvailableBySystemSettings": "Самостоятельное создание объектов недоступно в соответствии с настройками установленными администратором",
+  "waitCreationArticlesOr": "Ожидайте добавления Объектов или ",
+  "errorNoConnectionDescription": "Не удалось подключиться к серверу, сохраненные  данные для работы в оффлайн режиме отсутствуют.",
+  "checkYourInternetConnectionAndTryAgain": "Проверьте своё подключение к интернету и повторите попытку.",
+  "audioRecording": "Запись аудио",
+  "audioFileName": "Название аудиофайла",
+  "audio": "Аудио",
+  "picture": "Картинка",
+  "numberOfImagesExceeded": "Количество выбранных картинок превышено. Максимум - ",
+  "audioRecordingRestrictions": "Мин {minDuration} сек / Макс {maxDuration} сек",
+  "@audioRecordingRestrictions": {
+    "placeholders": {
+      "minDuration": {
+        "type": "String"
+      },
+      "maxDuration": {
+        "type": "String"
+      }
+    }
+  },
+  "minimumAudioLengthNotReached": "Не достигнута минимальная продолжительность аудиозаписи",
+  "selectAnAction": "Выберите действие",
+  "copyStep": "Скопировать шаг",
+  "createNewStep": "Создать новый шаг",
+  "copyingStep": "Копирование шага",
+  "instruction": "Инструкция",
+  "copyingStepInstruction": "Копирование шага позволяет воспроизвести повторяемые процессы",
+  "specifyNewStepName": "Укажите новое название для шага",
+  "numberOfCopies": "Количество копий",
+  "copySection": "Скопировать раздел",
+  "copyingSection": "Копирование раздела",
+  "sectionName": "Название раздела",
+  "copyingSectionInstruction": "Копирование группы шагов позволяет воспроизвести повторяемые процессы",
+  "enterNewSectionName": "Укажите новое название раздела",
+  "youCanSpecifyNameCopiedSteps": "Название скопированных шагов вы можете указать в самом шаге проверки",
+  "stepsCompleted": "Пройдено шагов",
+  "enterIdForRegistration": "Введите номер ID для регистрации",
+  "enterIdSecondScreen": "Введите номер ID",
+  "enterIdForAccountIdentification": "Для идентификации аккаунта введите ID.\n",
+  "getIdFromManager": "Получить ID можно у Менеджера, контрагента, либо он может быть размещен непосредственно на Объекте",
+  "enterEmail": "Введите Email",
+  "enterLastName": "Введите фамилию",
+  "enterName": "Введите имя",
+  "enterCompany": "Введите компанию",
+  "registrationSuccess": "Регистрация прошла успешно",
+  "switchToSignIn": "Перейти к авторизации",
+  "youWillGetMessageWithPassword": "Для входа в приложение Вам придет сообщение с паролем",
+  "youWillGetPasswordAfterVerification": "После подтверждения аккаунта Вам придет сообщение с паролем для авторизации",
+  "waitForVerification": "Ожидайте верификации",
+  "youAreNotLinkedToAnyCompany": "Вы не привязаны к компании",
+  "toDelegate": "Делегировать",
+  "rejection": "Отказ",
+  "rejectionReason": "Причина отказа",
+  "contractorPhoneNumber": "Номер телефона Исполнителя",
+  "newContractorPhoneNumber": "Номер телефона нового Исполнителя",
+  "enterPosition": "Введите должность",
+  "reportRejectedSuccess": "Проверка отменена",
+  "dataTransferredToResponsible": "Данные переданы ответственному лицу",
+  "goToReportsNavigation": "Перейти к Проверкам",
+  "delegation": "Делегирование",
+  "enterContractorPhoneNumberToDelegate": "Для делегирования введите номер телефона Исполнителя.\n",
+  "ifContractorUnregisteredEnterInfoAbout": "Если Исполнитель не зарегистрирован в системе, нужно ввести необходимую информацию об Исполнителе",
+  "delegationSuccess": "Делегирование прошло успешно",
+  "reportWasDelegatedToChosenContractor": "Проверка была делегирована выбранному исполнителю",
+  "delegationImpossible": "Делегирование невозможно",
+  "contractorDelegateToIsUnregistered": "Исполнитель, которому была осуществлена делегация, не зарегистрирован",
+  "selfContractorCreationIsImpossible": "Самостоятельное создание исполнителя недоступно в соответствии с настройками установленными администратором.",
+  "gotToWork": "Взята в работу",
+  "creatingOrUploading": "Создание или загрузка",
+  "sending": "Отправка",
+  "delegated": "Делегирована",
+  "deleted": "Удалена",
+  "created": "Создана",
+  "isNeedRework": "Требуют доработки",
+  "canNotGetToWork": "Взять в работу невозможно",
+  "reportAlreadyGotToWork": "Проверка уже взята в работу другим Исполнителем",
+  "chooseAnotherReport": "Выберите для работы другую проверку",
+  "signReviewTitle": "Подписание Проверки простой электронной подписью",
+  "signReviewDescription": "Нажимая кнопку «Отправить», вы подтверждаете актуальность, достоверность и соответствие представленных сведений указанных в проверке.",
+  "linkedCheckBoxPrivacyAgreementFirst": "Принимаю ",
+  "linkedCheckBoxPrivacyAgreementSecond": "соглашение об использовании",
+  "linkedCheckBoxPrivacyAgreementThird": " простой электронной подписи",
+  "linkedCheckBoxSendButton": "Подписать и отправить",
+  "linkedCheckBoxCancelButton": "Отменить",
+  "articleListSortGroup": "Группы",
+  "articleListSortAll": "Все",
+  "articleDetailsToMainArticles": "К главным объектам",
+  "articleDetailsContainsObjects": "Содержит объектов: {number}",
+  "@articleDetailsContainsObjects": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "articlePassportHeader": "Паспорт объекта",
+  "articlePassportBodyTitle": "Характеристики",
+  "articlePassportArticleType": "Тип объекта",
+  "logOutAndDeleteYourAccount": "Выйти и удалить аккаунт",
+  "accountDoesNotExist": "Не зарегистрирован",
+  "confirmTheAction": "Подтвердите действие",
+  "deleteAccountDialogDescription": "Нажимая кнопку подтвердить, вы выходите из приложения и удаляете вашу учетную запись вместе с соответствующими личными данными.",
+  "confirm": "Подтвердить"
+
+}

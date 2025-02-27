@@ -1,0 +1,631 @@
+{
+  "@@locale": "kk",
+  "networkException": "Интернетке қосылу қатесі ",
+  "loadingScreenHasNewUpdate": " Жаңа жаңартуды қолжетімді, қосымшаны жаңарту қажет\n\nСіздің нұсқаңыз: {localVersion}\nҚол жетімді нұсқа {storeVersion}",
+  "@loadingScreenHasNewUpdate": {
+    "description": "Қосымшаның жаңа жаңартуының пайда болуы туралы хабарлама ",
+    "placeholders": {
+      "localVersion": {
+        "type": "String"
+      },
+      "storeVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "loadingScreenUpdateHasNotes": "\n\nСипаты: {releaseNotes}",
+  "@loadingScreenUpdateHasNotes": {
+    "description": "Сипаты",
+    "placeholders": {
+      "releaseNotes": {
+        "type": "String"
+      }
+    }
+  },
+  "loadingScreenUpdateDialogTitle": "Жаңарту",
+  "loadingScreenUpdateDialogUpdateButtonTitle": "Жаңарту",
+  "loadingScreenUpdateDialogDismissButtonTitle": "Кейінірек",
+  "loadingScreenUploadingFilesStarted": "{count}Объектілерді қосымша жүктеу басталды!\nҚосымшаны өшірмеңіз және интернетке тұрақты қосылуды қамтамасыз етіңіз..",
+  "@loadingScreenUploadingFilesStarted": {
+    "description": "Файлдарды серверге қосымша жүктеу бастау туралы қалқымалы хабарлама",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "loadingScreenLoadingAppTitle": "Қосымшаны жүктейміз...",
+  "loadingScreenHasNewUpdateText1": "Жаңа жаңарту қолжетімді.\n\n",
+  "loadingScreenHasNewUpdateText2": "Қосымшаны жаңартыңыз.\n\n",
+  "loadingScreenHasNewUpdateText3": "Жаңарту",
+  "loadingScreenHasBeenCriticalError1": "Сыни қате орын алды\n",
+  "loadingScreenHasBeenCriticalError2": "Интернет қолданысының аймағындағы қосымшаны қайта іске қосыңыз.\nЕгер проблема сақталса -",
+  "loadingScreenHasBeenCriticalError3": "әрекетті қайталап көріңіз",
+  "loadingScreenHasBeenCriticalError4": " немесе ",
+  "loadingScreenHasBeenCriticalError5": "қосымшадан файлдарды түсіріңіз",
+  "loadingScreenHasBeenCriticalError6": ", содан кейін ",
+  "loadingScreenHasBeenCriticalError7": "қосымшаны қайта орнатыңыз.",
+  "loadingScreenRetrying": "Әрекетті қайталап көрейік...",
+  "loadingScreenStartingOfflineMode": "Қосымшаны offline режимінде іске қосу.",
+  "loadingScreenConnectingToServer": "Сервермен қосылудамыз, күте тұрыңыз...",
+  "loadingScreenRetryingSending": "Қайта жібереміз {progress} / {count}...",
+  "@loadingScreenRetryingSending": {
+    "placeholders": {
+      "progress": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "loginScreenTitle": "Өз аккаунтыңызға кіріңіз",
+  "loginScreenUserAgreement1": "«Кіру» түймешігін басу арқылы",
+  "loginScreenUserAgreement2": "Пайдаланушы келісімімен",
+  "loginScreenUserAgreement3": "және менің дербес ақпаратымды",
+  "loginScreenUserAgreement4": "Құпиялылық саясаты шарттарымен өңдеуге келісемін",
+  "loginScreenPrivacy1": "«Кіру» түймешігін басу арқылы менің жеке ақпаратымды ",
+  "loginScreenPrivacy2": "Құпиялылық саясаты шартымен өңдеуге келісемін ",
+  "loginScreenSignupButtonTitle": "Тіркелу",
+  "loginScreenSignupOrRecoveryPassword": " немесе ",
+  "loginScreenRecoveryPasswordLinkTitle": "Құпиясөзді қалпына келтіру",
+  "loginScreenRecoveryPasswordLink2": "Құпиясөзді қалпына келтіру",
+  "loginScreenPhoneLabel": "Телефон нөмірі",
+  "loginScreenPhoneHint": "* Телефон нөмірі",
+  "loginScreenPasswordLabel": "Құпиясөз",
+  "loginScreenPasswordHint": "* Құпиясөз",
+  "loginScreenSignInButtonTitle": "Кіру",
+  "registerFirstScreenSmsCodeHasBeenSentNotification": "Растау коды көрсетілген телефон нөміріне жіберілді",
+  "registerFirstScreenUserAgreement1": "«Тіркелу» түймешігін басу арқылы мен",
+  "registerFirstScreenUserAgreement2": "Пайдаланушы келісімімен",
+  "registerFirstScreenUserAgreement3": "және менің дербес ақпаратымды",
+  "registerFirstScreenUserAgreement4": "Құпиялылық саясаты шартымен өңдеуге келісемін",
+  "registerFirstScreenPrivacy1": "«Тіркелу» түймешігін басу арқылы менің дербес ақпаратымды ",
+  "registerFirstScreenPrivacy2": "Құпиялылық саясаты шартымен өңдеуге келісемін",
+  "registerFirstScreenTitle": "Тіркеу",
+  "registerFirstScreenLastnameLabel": " Тегі",
+  "registerFirstScreenFirstnameLabel": "Аты",
+  "registerFirstScreenPatronymicLabel": "Әкесінің аты",
+  "registerFirstScreenCompanyLabel": "Компания",
+  "registerFirstScreenInnOfCompanyLabel": "Компанияның ЖСН/БСН",
+  "registerFirstScreenPositionLabel": "Лауазым",
+  "registerFirstScreenPhoneLabel": "Ұялы телефон",
+  "registerFirstScreenEmailLabel": "Email",
+  "registerFirstScreenPasswordLabel": "Құпиясөз",
+  "registerFirstScreenPasswordConfirmationLabel": "Құпиясөзді қайталаңыз",
+  "registerFirstScreenPasswordConfirmationError": "Құпиясөз сәйкес келмейді",
+  "registerFirstScreenSignupButtonTitle": "Тіркелу",
+  "registerSecondScreenSuccessful": " Сіз сәтті тіркелдіңіз!",
+  "registerSecondScreenTitle": "Тіркеуді аяқтау",
+  "registerSecondScreenSmsCodeHasBeenSentToPhone": "Растау коды көрсетілген «{phone}» нөміріне жіберілді.",
+  "@registerSecondScreenSmsCodeHasBeenSentToPhone": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "registerSecondScreenSmsCodeLabel": "Смс-код",
+  "registerSecondScreenFinishRegistrationButtonTitle": "Тіркеуді аяқтау",
+  "addArticleScreenCreate": "Жасау",
+  "addArticleScreenObjectSuccessfulCreatedMessage": "Объект сәтті жасалды",
+  "addArticleScreenLoading": "Жүктеу...",
+  "addArticleScreenInnNotFoundSelectForFillManualy": "ЖСН/БСН табылмады қолмен толтыру үшін таңдаңыз ",
+  "addArticleScreenEnterInn": "ЖСН/БСН енгізіңіз",
+  "addArticleScreenCompanyNameLabel": "Атауы",
+  "addArticleScreenCompanyAddressLabel": "Мекенжай",
+  "helpQuestionsScreenTitle": "Сұрақтар мен жауаптар",
+  "helpQuestionsScreenHasNotQuestionsAndAnswers": "Сұрақтар мен жауаптар жоқ",
+  "previewPhotoScreenUnexpectedFileFormat": "Белгісіз файл форматы немесе оны анықтау мүмкін болмады",
+  "previewPhotoScreenEnterComment": "Түсініктеме мәтінін енгізіңіз",
+  "recoveryScreenPasswordHasBeenSentOnSpecifiedPhone": "Құпиясөз көрсетілген телефон нөміріне жіберілді",
+  "recoveryScreenTitle": "Құпиясөзді қалпына келтіру",
+  "recoveryScreenHintTitle": "Телефон нөмірін енгізіңіз",
+  "recoveryScreenPhoneLabel": "Телефон нөмірі",
+  "recoveryScreenPhoneHint": "* Телефон нөмірі",
+  "recoveryScreenSendPasswordButtonTitle": "Құпиясөзді жіберу",
+  "reviewTemplateFormStepScreenRequiredInputValidation": "Толтыру үшін міндетті",
+  "reviewTemplateFormStepScreenEmptyDropdown": "Таңдау үшін мән жоқ",
+  "reviewTemplateFormStepScreenDropdownHintText": "Жауап нұсқасын таңдаңыз ",
+  "reviewTemplateFormStepScreenDatePickerCancelText": "Болдырмау",
+  "reviewTemplateFormStepScreenSaveButtonTitle": "Сақтау",
+  "reviewTemplateFormStepScreenChooseData": "Күнді таңдау",
+  "uploadsScreenTitle": "Жүктеулер",
+  "uploadsScreenEntiyActionReviewStoreTitle": "Тексеруді жасау",
+  "uploadsScreenEntiyActionReviewInterruptTitle": "Тексеруді тоқтату",
+  "uploadsScreenEntiyActionReviewFinishTitle": "Тексеруді аяқтау",
+  "uploadsScreenEntiyActionStepFileUploadTitle": "Файл",
+  "uploadsScreenEntiyActionLocationUploadTitle": "Орналасқан жері",
+  "uploadsScreenEntiyActionAttachCommentsTitle": "Түсініктеме",
+  "uploadsScreenEntiyActionAttachViolationsTitle": "Бұзушылықтар",
+  "uploadsScreenEntiyActionDeletingFilesTitle": "Файлдарды жою",
+  "uploadsScreenEntiyTypeReviewTitle": "Тексеру",
+  "uploadsScreenEntiyTypeStepFileTitle": "Файл",
+  "uploadsScreenEntiyTypeLocationTitle": "Орналасқан жері",
+  "uploadsScreenIdHasBeenCopiedMessage": "Сәйкестендіргіш көшірілды: {id}",
+  "@uploadsScreenIdHasBeenCopiedMessage": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "articlesScreenTitle": "Объектілер",
+  "articlesScreenAvailabledArticleNotFoundCanRegister1": "Олардың қосылуын күтіңіз немесе \n",
+  "articlesScreenAvailabledArticleNotFoundCanRegister2": "өзіңіз жасаңыз",
+  "articlesScreenAvailabledArticleNotFoundCantRegister": "Қолжетімді объектілер жоқ, олардың жасалуын күтіңіз.",
+  "articlesScreenRegisterReviews": "Серверде тексерулерді тіркеу...\n",
+  "articlesScreenRegisterReviewsStatus": "\n{current} {max} тіркелді",
+  "@articlesScreenRegisterReviewsStatus": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "articlesScreenRegisterReviewsFinish": "Тексерулер сәтті тіркелді және файлдарды жүктеу автономды режимде жалғасады, қосымшаны және интернетті өшірмеңіз.\n",
+  "articlesScreenRegisterReviewsFinishGoBack": "Қосымшаға оралу",
+  "articlesScreenRegisterReviewsUnxpectedException": "Тексерулерді тіркеу кезінде қате орын алды, кейінірек әрекетті қайталап көріңіз.\n",
+  "articlesScreenRegisterReviewsUnxpectedExceptionGoBack": "Қосымшаға оралу",
+  "articlesScreenNetworkException": "Интернетке қосылу жоқ.\nТапсырмалар қолжетімді емес.",
+  "articlesScreenUploadsButtonTitle": "Жүктеулер",
+  "articlesScreenHasRequestedReviews": "Сұралған тексерулер бар",
+  "articlesScreenHasNotFinishedReviews": "Аяқталмаған тексерулер бар",
+  "articlesScreenCreateReviewButtonTitle": "Тексеруді жасау",
+  "articlesScreenSearchFieldLabel": "Іздеу",
+  "articlesScreenSearchEmpty": "Ештеңе табылмады",
+  "notificationsScreenTitle": "Оқиғалар",
+  "notificationsScreenYetHaveNotNotifications": "Сізге хабарландыру әлі жоқ",
+  "helpScreenTitle": "Көмек",
+  "helpScreenQuestionsAndAnswers": "Сұрақтар мен жауаптар",
+  "helpScreenWriteEmail": "Бізге поштаға жазыңыз",
+  "helpScreenCallUs": "Бізге қоңырау шалыңыз",
+  "helpScreenExportFilesButtonTitle": "Файлдарды түсіру",
+  "unexpectedException": "Қандай да бір қате орын алды",
+  "helpScreenClearedMemoryToast": "{megabytes}Мб жойылды",
+  "@helpScreenClearedMemoryToast": {
+    "placeholders": {
+      "megabytes": {
+        "type": "int"
+      }
+    }
+  },
+  "chooseCreatingArticleType": "Объекті түрін таңдаңыз",
+  "noAvailableArticleTypes": "Жасау үшін қарау объектілерінің қолжетімді түрлері жоқ.\n«Көмек» бетінде техникалық қолдаумен хабарласыңыз",
+  "choosingCreatingArticleTypeInternetException": "Интернетке қосылу жоқ.\nТексеру объектілерінің түрлері қол жетімді емес.",
+  "chooseReviwTemplateInternetException": "Интернетке қосылу қатесі",
+  "chooseReviwTemplate": "Үлгіні таңдау",
+  "noAvailableReviwTemplatesForThisArticle": "Бұл объект үшін қолжетімді қарау үлгілері жоқ",
+  "chooseReviewTemplateNoInternet": "Интернетке қосылыс жоқ.\nҚарап шығу үлгісін таңдау қолжетімді емес.",
+  "chooseReviwTemplateScreenContinueReview": "НТексеруді құрастыруды жалғастыру үшін басыңыз",
+  "chooseReviewTemplateScreenAwaitForContinue": "Орындалуын күтуде",
+  "chooseReviewTemplateScreenAvailable": "Дербес тексеру үшін қолжетімді",
+  "helpCreateMessageScreenYourMessageSended": "Сіздің хабарыңыз жіберілді!",
+  "helpCreateMessageScreenInternetException": "Интернетке қосылу қатесі",
+  "helpCreateMessageScreenSendMessage": "Хабарды жіберу",
+  "helpCreateMessageScreenPhoneNumber": "Телефон нөмірі",
+  "helpCreateMessageScreenPhoneNumberDescription": "Кері байланыс үшін телефон нөмірін көрсетіңіз.",
+  "helpCreateMessageScreenMessage": "Хабар мәтіні",
+  "helpCreateMessageScreenMessageDescription": "Өтініштің мәнін 2-3 сөйлемде баяндаңыз.",
+  "helpCreateMessageScreenSend": "Жіберу",
+  "helpScreenSendMessage": "Хабарды жіберу",
+  "helpScreenCleanMemory": "Жадты тазалау",
+  "helpScreenCleanMemoryAreYouSure": "Барлық файлдарды жойғыңыз келетініе сенімдісіз бе?",
+  "helpScreenCleanMemoryProccessIsIrrevirsable": "Кэштелген және жіберілмеген файлдар жоғалады, қайта айналмайтын процесс.",
+  "helpScreenCleanMemoryNo": "Жоқ",
+  "helpScreenCleanMemoryYes": "Иә",
+  "helpInsuranceCase": "Сақтандыру жағдайы",
+  "reviewStepsCreateScreenNewStep": "Жаңа қадам жасау",
+  "reviewStepsCreateScreenName": "Атауы",
+  "reviewStepsCreateScreenDescription": "Қысқаша сипаты",
+  "reviewStepsCreateScreenPhoto": "Сурет",
+  "reviewStepsCreateScreenVideo": "Бейне",
+  "reviewStepsCreateScreenDocumentScan": "Құжатты сканерлеу",
+  "reviewStepsCreateScreenFile": "Файл",
+  "reviewStepsCreateScreenCreate": "Жасау",
+  "uploadsScreenUploadsScreenIsEmpty": "Жүктеулер тізімі бос",
+  "articlesScreenSendSavedArticles": "Сақталған тексерулерді жіберу",
+  "articlesScreenArticlesCount": "{howMany,plural, =1{{howMany} тексеру}=2{{howMany} тексеру}other{{howMany} тексерулер}}",
+  "@articlesScreenArticlesCount": {
+    "placeholders": {
+      "howMany": {
+        "type": "int"
+      }
+    }
+  },
+  "articlesScreenAwaitOfSending": "жіберу күтілуде",
+  "articlesScreenSearch": "Іздеу",
+  "articlesScreenNothingFound": "Өкінішке қарай ештеңе табылмады.",
+  "onCenterWidgetUndefined": "undefined",
+  "profileScreenSurname": "Тегі",
+  "profileScreenName": "Аты",
+  "profileScreenPatronymic": "Әкесінің аты",
+  "profileScreenCompanyInn": "Компанияның ЖСН/БСН",
+  "profileScreenJobTitle": "Лауазым",
+  "profileScreenPhoneNumber": "Ұялы телефон",
+  "profileScreenEmail": "Email",
+  "profileScreenPassword": "Құпиясөз",
+  "profileScreenRepeatPassword": "Құпиясөзді қайталаңыз",
+  "profileScreenSave": "Сақтау",
+  "makeDocumentPageAndroidScan": "Сканерлеу",
+  "makeDocumentPageAndroidCropTitle": "Редакциялау",
+  "makeDocumentPageAndroidBWTitle": "Қ/А",
+  "makeDocumentPageAndroidCropReset": "Болдырмау",
+  "makeDocumentPageTitle": "Құжаттың көшірмесін жасау",
+  "makeMediaPageCameraException": "Камера қатесі",
+  "makeMediaPageStandBy": "Өңдеу және сақтау жүргізілуде, қосымшаны жаппаңыз, аяқталуын күтіңіз",
+  "makeMediaPageCameraAccesException": "Камераға рұқсат жоқ",
+  "makeMediaPageOpenAppSettings": "Қосымша баптауларын ашу",
+  "makeMediaPageMicAccesException": "Микрофонға рұқсат жоқ",
+  "makeMediaPageVideo": "Бейнежазба",
+  "makeMediaPagePhoto": "Сурет",
+  "makeMediaPageSomethingWentWrong": "Қандай да бір қате орын алды",
+  "makeMediaPageUndefined": "undefined",
+  "makeReportPageLowSpace": "Бос орын аз қалды: {freeDiskSpace} мб.",
+  "@makeReportPageLowSpace": {
+    "placeholders": {
+      "freeDiskSpace": {
+        "type": "String"
+      }
+    }
+  },
+  "makeReportPageHugeFile": "{path} файлдың салмағы  {mbLimit} мб-тан асады. Жіберу мүмкін емес.",
+  "@makeReportPageHugeFile": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      },
+      "mbLimit": {
+        "type": "String"
+      }
+    }
+  },
+  "makeReportPageMakePhoto": "Суретке түсіру",
+  "makeReportPageMakeAdditionalPhoto": "Қосымша суретке түсіру",
+  "makeReportPageRemakePhoto": "Суретті қайта түсіру",
+  "makeReportPageMissedWithComments": "Түсініктемемен өткізілген: \r\n{comments}",
+  "@makeReportPageMissedWithComments": {
+    "placeholders": {
+      "comments": {
+        "type": "String"
+      }
+    }
+  },
+  "makeReportPageRemakeVideo": "Бейнені жазу",
+  "makeReportPageMakeAdditionalVideo": "Қосымша бейне жазу",
+  "makeReportPageTapToWatch": "Қарап шығу үшін басыңыз",
+  "makeReportPageMakeScan": "Скан жасау",
+  "makeReportPageMakeAdditionalScan": "Қосымша скан жасау",
+  "makeReportPageRemakeScan": "Сканды қайта түсіру",
+  "makeReportPageScan": "Скан",
+  "makeReportPageAddFile": "Файлды қосу",
+  "makeReportPageAddAnotherFile": "Қосымша файл қосу",
+  "makeReportPageChooseAnotherFile": "Басқа файлды таңдау",
+  "makeReportPageFile": "Файл",
+  "makeReportPageFillTheForm": "Нысанды толтыру",
+  "makeReportPageFillTheAnotherForm": "Қосымша нысанды толтыру",
+  "makeReportPageTapToChange": "Өзгерту үшін басыңыз",
+  "makeReportPageAdminComment": "әкімшісінің түсініктемесі: «{comment}»",
+  "@makeReportPageAdminComment": {
+    "placeholders": {
+      "comment": {
+        "type": "String"
+      }
+    }
+  },
+  "makeReportPageAreYouSureForExit": "Шыққыңыз келетініне сенімдісіз бе?",
+  "makeReportPageNo": "Жоқ",
+  "makeReportPageYes": "Иә",
+  "makeReportPageAreYouSureForDelete": "Осы тексеруді жойғыңыз келе ме?",
+  "makeReportPageLocating": "Орналасқан жерді анықтаймын...",
+  "makeReportPageSendingData": "Деректерді серверге жібереміз...\nКүте тұрыңыз.",
+  "makeReportPageAddStep": "Қадамды қосу",
+  "makeReportPageIssueOccured": "Бұзушылық анықталды",
+  "makeReportPageSkipAndFinish": "Өткізіп жіберу және аяқтау",
+  "makeReportPageFinish": "Аяқтау",
+  "makeReportPageContinue": "Жалғастыру",
+  "makeReportPageSkip": "Өткізіп жіберу ",
+  "makeReportPageReasonForSkip": "Өткізіп жіберу себебін көрсетіңіз",
+  "makeReportPageCancel": "Болдырмау",
+  "makeReportPageSend": "Жіберу",
+  "makeReportPageReportIsCreated": "Рахмет! Тексеру жасалды!",
+  "makeReportPageRepeatableReport": "Қайталанатын тексеру",
+  "makeReportPageAnotherReportWithThisTemplate": "Осы үлгі бойынша тағы бір тексеруді жүргізгіңіз келе ме?",
+  "makeReportPagePopupMessage": "Тексеруді аяқтау үшін міндетті қадамдардан өту қажет",
+  "articlesScreenSawDownloads": "Жүктеулерді қарап шығу",
+  "articlesScreenNeedToChooseCompany": "Алдымен компанияны таңдау қажет",
+  "helpScreenNeedToChooseCompany": "Алдымен «Объектілер» экранында компанияны таңдау керек",
+  "articleAccountSwitcherChooseCompany": "Компанияны таңдаңыз",
+  "myTextFieldDefaultTextHint": "Мәтінді енгізіңіз",
+  "myTextFieldDefaultNumberHint": "Санды енгізіңіз",
+  "myTextFieldDefaultDateHint": "Күнді енгізіңіз",
+  "makeReportPageNotEnoughDishSpace": "Бос орын жеткіліксіз",
+  "makeReportPageHaveNotLocationPermission": "Орналасқан жерін анықтау үшін құқықтар жеткіліксіз",
+  "makeReportPageUndefinedState": "Анықталмаған күй",
+  "makeReportPageOpenAppSettings": "Қосымшаның баптауларын ашу",
+  "videoProcessing": "Бейнені өңдеу",
+  "ok": "ОК",
+  "mediaFilesDoNotSaved": "Медиафайлдар сақталмаған. Сақтау керек пе?",
+  "tasksScreenAppBarTitle": "Тапсырмалар",
+  "tasksScreenTabMyTasksTitle": "Менің тапсырмаларым",
+  "tasksScreenTabAvailableTitle": "Бөлімше",
+  "tasksScreenFastFilterAssignedStatusTitle": "Тағайындалғандар",
+  "tasksScreenFastFilterAtWorkStatusTitle": "Жұмыста",
+  "tasksScreenFastFilterRejectedStatusTitle": "Қабылданбағандар",
+  "tasksScreenFastFilterOnInspectionStatusTitle": "Растау бойынша",
+  "tasksScreenFastFilterCompletedStatusTitle": "Аяқталғандар",
+  "taskInfoScreenDescriptionTitle": "Сипаты",
+  "taskInfoScreenArticleTitle": "Объект",
+  "taskInfoScreenAddressTitle": "Тапсырма мекенжайы",
+  "taskInfoScreenFinishDateLimitTitle": "Орындау мерзімі",
+  "taskInfoScreenTakeToWorkButtonTitle": "Жұмысқа алу",
+  "taskInfoRefuseButtonTitle": "Бас тарту",
+  "tasksRowStartExecutionAt": "{date} орындауды бастау",
+  "@tasksRowStartExecutionAt": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "isCustomDateFormat": "true",
+        "format": "dd.MM.yy"
+      }
+    }
+  },
+  "tasksRowFinishExecutionAt": "{date} дейін орындау",
+  "@tasksRowFinishExecutionAt": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "isCustomDateFormat": "true",
+        "format": "dd.MM.yy"
+      }
+    }
+  },
+  "taskInfoScreenExecuteButtonTitle": "Орындау",
+  "taskInfoScreenChangeButtonTitle": "Редакциялау",
+  "taskExecutionScreenTakePhotoButtonTitle": "Суретке түсіру",
+  "taskExecutionScreenTakeVideoButtonTitle": "Бейнені жазу",
+  "taskExecutionScreenTakeDocumentButtonTitle": "Құжатты сканерлеу",
+  "taskExecutionDescriptionTitle": "Сипаты:",
+  "taskExecutionScreenTakeFileButtonTitle": "Файлды таңдау",
+  "taskExecutionFinishButtonTitle": "Аяқтау",
+  "taskExecutionStepDetailPhotoExampleTitle": "Сурет-мысал",
+  "taskExecutionStepDetailDescriptionTitle": "Сипаты",
+  "boolDialogDefaultApproveTitle": "Иә",
+  "boolDialogDefaultDenyTitle": "Жоқ",
+  "taskExecutionDeleteFileDialogContent": "Файлды шынымен жойғыңыз келе ме?\n\nҚайта айналмайтын әрекет",
+  "taskDetailErrorFailedTitle": "Жүктеу қатесі, әрекетті кейіннен қайталап көріңіз",
+  "alertDialogDefaultOkTitle": "OK",
+  "taskExecutionNotAllConditionsCompleted": "Тапсырманы аяқтау үшін міндетті қадамдардан өту қажет",
+  "tasksScreenErrorTitle": "Жүктеу қатесі, кейінірек көріңіз",
+  "addingTask": "Тапсырманы жасау",
+  "editingTask": "Тапсырманы редакциялау",
+  "taskType": "Тапсырма түрі",
+  "object": "Объект",
+  "taskAddress": "Тапсырма мекенжайы",
+  "deadline": "Орындау мерзімі",
+  "sendForApproval": "Келісуге жіберу",
+  "startOfExecution": "Орындауды бастау",
+  "priority": "Басымдық",
+  "create": "Жасау",
+  "save": "Сақтау",
+  "pickDate": "Күнді таңдау",
+  "pickObject": "Объектіні таңдау",
+  "pickTaskType": "Тапсырма түрін таңдаңыз",
+  "pickPriority": "Басымдықты таңдаңыз",
+  "enterObjectAddress": "Объектінің мекенжайын таңдаңыз",
+  "low": "Төмен",
+  "medium": "Орташа",
+  "high": "Жоғары",
+  "task": "Тапсырма",
+  "notifications": "Хабарламалар",
+  "objects": "Объектілер",
+  "tasks": "Тапсырмалар",
+  "help": "Көмек",
+  "internetConnectionError": "Интернетке қосылу қатесі",
+  "minimumVideoLengthNotReached": "Бейненің ең аз ұзақтығына қол жеткізілмеді",
+  "camera": "Камера",
+  "microphone": "Микрофон",
+  "location": "Орналасқан жері",
+  "goToSettingsAndGiveAccessTo": "Қосымшаның дұрыс жұмыс істеуі үшін рұқсат беру қажет:",
+  "accessGranted": "Рұқсат берілген",
+  "notAllRequiredPermitsHaveBeenIssued": "Барлық қажетті рұқсаттар берілмеген",
+  "maximumNumberFilesReached": "Осы типтегі файлдардың максималды санына қол жеткізілді",
+  "createTask": "Тапсырманы жасау",
+  "taskCreatedSuccessfully": "Тапсырма сәтті жасалды",
+  "main": "Басты",
+  "showAll": "Барлығын көрсету",
+  "hide": "Жасыру",
+  "accountSelection": "Аккаунтты таңдау:",
+  "search": "Іздеу",
+  "objectsWithThisNameNotFound": "Мұндай атауы бар объектілер табылмады",
+  "articleRowStatusCreatedTitle": "Объект жасалды",
+  "articleRowStatusNeedReportTitle": "Тексеру сұралды",
+  "articleRowStatusUploadingTitle": "Тексеруді құру басталды",
+  "articleRowStatusUploadFailedTitle": "Жүктеу қатесі",
+  "articleRowStatusWaitCheckingTitle": "Тексеруді күтуде",
+  "articleRowStatusReportDeniedTitle": "Тексеруден бас тартылды",
+  "articleRowStatusReportConfirmedTitle": "Тексеру қабылданды",
+  "articleRowStatusUndefinedTitle": "Белгісіз мәртебе",
+  "goToCreateAnAdditionalStep": "Қосымша қадам жасауға көшу керек пе?",
+  "example": "Мысал",
+  "toNextStepButtonTitle": "Бұдан әрі",
+  "required": "міндетті",
+  "createAdditionalStep": "Қосымша қадам жасау",
+  "stepInfo": "Қадам туралы ақпарат",
+  "notAllStepsHaveBeenCompleted": "Тексеруді аяқтау үшін барлық міндетті қадамдардан өту қажет",
+  "commentText": "Түсініктеме мәтіні",
+  "userAgreementAndPrivacyPolicy": "Пайдаланушы келісімімен және құпиялылық саясатымен",
+  "noInternetConnectionNotifications": "Интернетке қосылыс жоқ.\nХабарландырулар қолжетімді емес.",
+  "noAvailableTasks": "Қолжетімді тапсырмалар жоқ",
+  "comment": "Түсініктеме",
+  "review": "Тексеру",
+  "reviewTemplate": "Тексеру үлгісі",
+  "reviews": "Тексерулер",
+  "reviewsModalInfoRedirectButton": "Бару",
+  "reviewsModalInfoLaterButton": "Кейінірек",
+  "noChecksScheduledOrStarted": "Тексерулер жоқ. Оларды тағайындауды күтіңіз немесе өзіңіз жасаңыз",
+  "noScheduledChecks": "Тағайындалған тексерулер жоқ",
+  "noInReworkChecks": "Пысықтауды қажет ететін тексерулер жоқ",
+  "noStartedChecks": "Жұмыста тексерулер жоқ",
+  "checksWithThisNameNotFound": "Мұндай атауы бар тексерулер табылмады",
+  "all": "Барлығы",
+  "turnOnGPS": "GPS қосыңыз",
+  "turnOnLocationServices": "HMS Core геолокация қызметтерін қосыңыз ",
+  "noAccessToGetExactLocation": "Нақты орналасу орнын алу үшін рұқсат жоқ",
+  "noAccessToGetLocation": "Орналасу орнын алу үшін рұқсат жоқ",
+  "fillInTheField": "Өрісті толтырыңыз",
+  "stepType": "Қадамның түрі",
+  "itemsMissing": "{itemsName} жоқ",
+  "@itemsMissing": {
+    "placeholders": {
+      "itemsName": {
+        "type": "String"
+      }
+    }
+  },
+  "itemCreationNotAvailable": "{itemsName} жасау қолжетімді емес",
+  "@itemCreationNotAvailable": {
+    "placeholders": {
+      "itemsName": {
+        "type": "String"
+      }
+    }
+  },
+  "creationOfItemsIsNotAvailableDescription": "{itemsName} әкімші орнатқан баптауларға сәйкес дербес жасау қолжетімді емес",
+  "@creationOfItemsIsNotAvailable": {
+    "placeholders": {
+      "itemsName": {
+        "type": "String"
+      }
+    }
+  },
+  "toMain": "Басты бетке",
+  "necessaryActionsForTask": "Тапсырма бойынша қажетті әрекеттер",
+  "missingObjectsName": "объектілер",
+  "missingReviewsName": "тексерулер",
+  "missingTasksName": "міндеттер",
+  "waitForTheirAppointmentOr": "Оларды тағайындауды күтіңіз немесе\n",
+  "error": "Қате:",
+  "locationDetermining": "Орналасқан жері анықталуда",
+  "pleaseWait": "Күте тұрыңыз",
+  "locatingDescription": "Орналасқан жерін анықтау жылдамдығы ағымдағы жағдайларға байланысты: спутниктердің қолжетімділігі, бұлттылық, ғимарат түріндегі кедергілер.",
+  "locatingRecommendation": "Егер сіз үй-жайдың ішінде болсаңыз, терезеге келіңіз немесе көшеге шығыңыз.",
+  "startReviewWithoutInitialLocation": "Қазіргі уақытта орынды анықтау мүмкін болмады. Тексеруден өту барысында әрекеттер жасалады.",
+  "accuracyHigh": "Жоғары",
+  "accuracyMedium": "Орташа",
+  "accuracyLow": "Төмен",
+  "tryAgain": "Әрекетті қайталау",
+  "proceedToReview": "Тексеруге өтіңіз",
+  "failedToDetermineLocation": "Орналасу орнын анықтау мүмкін болмады",
+  "haveNoTaskTypesAvailable": "Тапсырма түрлері қолжетімді емес",
+  "haveNoTemplatesAvailable": "Үлгілер қолжетімді емес",
+  "haveNoArticlesAvailable": "Қолжетімді нысандар жоқ",
+  "reviewOrTaskCanNotBeCreatedWithoutAvailableArticles": "Қол жетімді нысандарсыз чекті немесе тапсырманы жасау мүмкін емес",
+  "independentCreationArticlesIsNotAvailableBySystemSettings": "Әкімші орнатқан параметрлерге сәйкес нысандарды тәуелсіз құру мүмкін емес",
+  "waitCreationArticlesOr": "Нысандардың қосылуын күтіңіз немесе ",
+  "errorNoConnectionDescription": "Серверге қосылу мүмкін болмады, оффлайн режимде жұмыс жасау үшін сақталған деректер жоқ.",
+  "checkYourInternetConnectionAndTryAgain": "Өзіңіздің интернет байланысыңызды тексеріп, қайта көріңіз.",
+  "audioRecording": "Аудио жазу",
+  "audioFileName": "Аудио файл атауы",
+  "audio": "Аудио",
+  "picture": "Сурет",
+  "numberOfImagesExceeded": "Таңдалған суреттердің саны асып кетті. Максимум - ",
+  "audioRecordingRestrictions": "Мин {minDuration} сек / Макс {maxDuration} сек",
+  "@audioRecordingRestrictions": {
+    "placeholders": {
+      "minDuration": {
+        "type": "String"
+      },
+      "maxDuration": {
+        "type": "String"
+      }
+    }
+  },
+  "minimumAudioLengthNotReached": "Аудиожазбаның минималды ұзақтығына қол жеткізілмеді",
+  "selectAnAction": "Әрекетті таңдаңыз",
+  "copyStep": "Қадамды көшіру",
+  "createNewStep": "Жаңа қадам жасаңыз",
+  "copyingStep": "Қадамды көшіру",
+  "instruction": "Нұсқаулық",
+  "copyingStepInstruction": "Қадамды көшіру қайталанатын процестерді ойнатуға мүмкіндік береді",
+  "specifyNewStepName": "Қадамға жаңа атау беріңіз",
+  "numberOfCopies": "Көшірмелер саны",
+  "copySection": "Бөлімді көшіру",
+  "copyingSection": "Бөлімді көшіру",
+  "sectionName": "Бөлім атауы",
+  "copyingSectionInstruction": "Қадамдар тобын көшіру қайталанатын процестерді ойнатуға мүмкіндік береді",
+  "enterNewSectionName": "Бөлімнің жаңа атауын көрсетіңіз",
+  "youCanSpecifyNameCopiedSteps": "Көшірілген қадамдардың атын тексеру қадамының өзінде көрсетуге болады",
+  "stepsCompleted": "Қадамдар өтті",
+  "enterIdForRegistration": "Тіркелу үшін ID нөмірін енгізіңіз",
+  "enterIdSecondScreen": "ID нөмірін енгізіңіз",
+  "enterIdForAccountIdentification" : "Есептік жазбаны анықтау үшін ID енгізіңіз.\n",
+  "getIdFromManager" : "Идентификаторды менеджерден, контрагенттен алуға болады немесе оны тікелей объектіге орналастыруға болады",
+  "enterEmail": "Электрондық поштаны енгізіңіз",
+  "enterLastName" : "Фамилияны енгізіңіз",
+  "enterName": "Атын енгізіңіз",
+  "enterCompany": "Компанияны енгізіңіз",
+  "registrationSuccess": "Тіркеу сәтті өтті",
+  "switchToSignIn" : "Авторизацияға өтіңіз",
+  "youWillGetMessageWithPassword": "Қолданбаға кіру үшін сізге пароль туралы хабарлама келеді",
+  "youWillGetPasswordAfterVerification": "Есептік жазбаны растағаннан кейін сізге авторизация үшін пароль бар хабарлама келеді",
+  "waitForVerification": "Тексеруді күтіңіз",
+  "youAreNotLinkedToAnyCompany" : "Сіз Компанияға байланбайсыз",
+  "toDelegate": "Өкілдік ету",
+  "rejection": "Бас тарту",
+  "rejectionReason": "Бас тарту себебі",
+  "contractorPhoneNumber": "Орындаушының телефон нөмірі",
+  "newContractorPhoneNumber": "Жаңа Орындаушының телефон нөмірі",
+  "enterPosition": "Лауазымды енгізіңіз",
+  "reportRejectedSuccess": "Тексеру тоқтатылды",
+  "dataTransferredToResponsible": "Деректер жауапты тұлғаға берілді",
+  "goToReportsNavigation": "Тексерулерге өтіңіз",
+  "delegation": "Делегация",
+  "enterContractorPhoneNumberToDelegate": "Өкілдік ету үшін Орындаушының телефон нөмірін енгізіңіз.\n",
+  "ifContractorUnregisteredEnterInfoAbout": "Егер Орындаушы жүйеде тіркелмеген болса, орындаушы туралы қажетті ақпаратты енгізу қажет",
+  "delegationSuccess": "Делегация сәтті өтті",
+  "reportWasDelegatedToChosenContractor": "Тексеру таңдалған Орындаушыға берілді",
+  "delegationImpossible": "Делегация мүмкін емес",
+  "contractorDelegateToIsUnregistered": "Делегация жүзеге асырылған Орындаушы тіркелмеген",
+  "selfContractorCreationIsImpossible": "Орындаушыны өзіңіз жасау әкімші орнатқан параметрлерге сәйкес қол жетімді емес.",
+  "gotToWork": "Жұмысқа қабылданды",
+  "creatingOrUploading": "Жасау немесе жүктеу",
+  "sending": "Жіберу",
+  "delegated": "Өкілетті",
+  "deleted": "Жойылды",
+  "created": "Құрылды",
+  "isNeedRework": "Пысықтауды қажет етеді",
+  "canNotGetToWork": "Жұмысқа қабылдау мүмкін емес",
+  "reportAlreadyGotToWork": "Тексеру басқа Орындаушының жұмысына алынды",
+  "chooseAnotherReport": "Жұмыс үшін басқа тексеруді таңдаңыз",
+  "signReviewTitle":"Қарапайым электронды қолтаңбамен тексеруге қол қою",
+  "signReviewDescription":"«Жіберу» түймесін басу арқылы сіз тексеруде көрсетілген ақпараттың сәйкестігін, сенімділігін және сәйкестігін растайсыз.",
+  "linkedCheckBoxPrivacyAgreementFirst":"Мен қарапайым электрондық қолтаңбаны ",
+  "linkedCheckBoxPrivacyAgreementSecond":"пайдалану келісімін ",
+  "linkedCheckBoxPrivacyAgreementThird":" қабылдаймын",
+  "linkedCheckBoxSendButton":"Қол қойып жіберу",
+  "linkedCheckBoxCancelButton":"Болдырмау",
+  "articleListSortGroup": "Топтар",
+  "articleListSortAll": "Барлығы",
+  "articleDetailsToMainArticles": "Негізгі объектілерге",
+  "articleDetailsContainsObjects": "Объектілерден тұрады: {number}",
+  "@articleDetailsContainsObjects": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },  
+  "articlePassportHeader": "Объектінің паспорты",
+  "articlePassportBodyTitle": "Сипаттамалары",
+  "articlePassportArticleType": "Объекттің түрі",
+  "logOutAndDeleteYourAccount": "Шығу және есептік жазбаны жою",
+  "accountDoesNotExist": "Тіркелмеген",
+  "confirmTheAction": "Әрекетті растаңыз",
+  "deleteAccountDialogDescription": "Растау түймесін басу арқылы сіз қолданбадан шығып, есептік жазбаңызды тиісті жеке деректермен бірге жоясыз.",
+  "confirm": "Растау"
+
+}

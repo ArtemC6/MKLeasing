@@ -1,0 +1,630 @@
+{
+  "@@locale": "en",
+  "networkException": "Internet Connection Error",
+  "loadingScreenHasNewUpdate": "A new update is available, please update the app\n\nYour version: {localVersion}\nAvailable version: {storeVersion}",
+  "@loadingScreenHasNewUpdate": {
+    "description": "Notification about a new app update",
+    "placeholders": {
+      "localVersion": {
+        "type": "String"
+      },
+      "storeVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "loadingScreenUpdateHasNotes": "\n\nDescription:{releaseNotes}",
+  "@loadingScreenUpdateHasNotes": {
+    "description": "Description",
+    "placeholders": {
+      "releaseNotes": {
+        "type": "String"
+      }
+    }
+  },
+  "loadingScreenUpdateDialogTitle": "Update",
+  "loadingScreenUpdateDialogUpdateButtonTitle": "Update",
+  "loadingScreenUpdateDialogDismissButtonTitle": "Later",
+  "loadingScreenUploadingFilesStarted": "Uploading {count} items has started!\nDo not close the app and ensure a stable internet connection.",
+  "@loadingScreenUploadingFilesStarted": {
+    "description": "Popup notification about starting to upload files to the server",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "loadingScreenLoadingAppTitle": "Loading the App...",
+  "loadingScreenHasNewUpdateText1": "A new update is available.\n\n",
+  "loadingScreenHasNewUpdateText2": "Please update the app.\n\n",
+  "loadingScreenHasNewUpdateText3": "Update",
+  "loadingScreenHasBeenCriticalError1": "A critical error has occurred\n",
+  "loadingScreenHasBeenCriticalError2": "Restart the app within an internet zone.\nIf the issue persists, ",
+  "loadingScreenHasBeenCriticalError3": "try again",
+  "loadingScreenHasBeenCriticalError4": " or ",
+  "loadingScreenHasBeenCriticalError5": "remove files from the app",
+  "loadingScreenHasBeenCriticalError6": ", then ",
+  "loadingScreenHasBeenCriticalError7": "reinstall the app.",
+  "loadingScreenRetrying": "Retrying...",
+  "loadingScreenStartingOfflineMode": "Starting the app in offline mode.",
+  "loadingScreenConnectingToServer": "Connecting to the server, please wait...",
+  "loadingScreenRetryingSending": "Retrying sending {progress} / {count}...",
+  "@loadingScreenRetryingSending": {
+    "placeholders": {
+      "progress": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "loginScreenTitle": "Log into your account",
+  "loginScreenUserAgreement1": "By clicking “Log In”, I agree to the",
+  "loginScreenUserAgreement2": "User Agreement",
+  "loginScreenUserAgreement3": "and processing of my personal data under the terms of the",
+  "loginScreenUserAgreement4": "Privacy Policy",
+  "loginScreenPrivacy1": "By clicking “Log In”, I agree to the processing of my personal data under the terms of the ",
+  "loginScreenPrivacy2": "Privacy Policy",
+  "loginScreenSignupButtonTitle": "Sign Up",
+  "loginScreenSignupOrRecoveryPassword": " or ",
+  "loginScreenRecoveryPasswordLinkTitle": "Recover Password",
+  "loginScreenRecoveryPasswordLink2": "Recover Password",
+  "loginScreenPhoneLabel": "Phone Number",
+  "loginScreenPhoneHint": "* Phone Number",
+  "loginScreenPasswordLabel": "Password",
+  "loginScreenPasswordHint": "* Password",
+  "loginScreenSignInButtonTitle": "Log In",
+  "registerFirstScreenSmsCodeHasBeenSentNotification": "Confirmation code has been sent to the provided phone number",
+  "registerFirstScreenUserAgreement1": "By clicking “Sign Up”, I agree to the",
+  "registerFirstScreenUserAgreement2": "User Agreement",
+  "registerFirstScreenUserAgreement3": "and processing of my personal data under the terms of the",
+  "registerFirstScreenUserAgreement4": "Privacy Policy",
+  "registerFirstScreenPrivacy1": "By clicking “Sign Up”, I agree to the processing of my personal data under the terms of the ",
+  "registerFirstScreenPrivacy2": "Privacy Policy",
+  "registerFirstScreenTitle": "Registration",
+  "registerFirstScreenLastnameLabel": "Last Name",
+  "registerFirstScreenFirstnameLabel": "First Name",
+  "registerFirstScreenPatronymicLabel": "Patronymic",
+  "registerFirstScreenCompanyLabel": "Company",
+  "registerFirstScreenInnOfCompanyLabel": "Company's TIN",
+  "registerFirstScreenPositionLabel": "Position",
+  "registerFirstScreenPhoneLabel": "Mobile Phone",
+  "registerFirstScreenEmailLabel": "Email",
+  "registerFirstScreenPasswordLabel": "Password",
+  "registerFirstScreenPasswordConfirmationLabel": "Confirm Password",
+  "registerFirstScreenPasswordConfirmationError": "Passwords do not match",
+  "registerFirstScreenSignupButtonTitle": "Sign Up",
+  "registerSecondScreenSuccessful": "You have successfully registered!",
+  "registerSecondScreenTitle": "Registration Completion",
+  "registerSecondScreenSmsCodeHasBeenSentToPhone": "The confirmation code has been sent to the provided number “{phone}”.",
+  "@registerSecondScreenSmsCodeHasBeenSentToPhone": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "registerSecondScreenSmsCodeLabel": "SMS Code",
+  "registerSecondScreenFinishRegistrationButtonTitle": "Finish Registration",
+  "addArticleScreenCreate": "Create",
+  "addArticleScreenObjectSuccessfulCreatedMessage": "Object successfully created",
+  "addArticleScreenLoading": "Loading...",
+  "addArticleScreenInnNotFoundSelectForFillManualy": "TIN not found, select to fill manually",
+  "addArticleScreenEnterInn": "Enter TIN",
+  "addArticleScreenCompanyNameLabel": "Company Name",
+  "addArticleScreenCompanyAddressLabel": "Address",
+  "helpQuestionsScreenTitle": "Questions and Answers",
+  "helpQuestionsScreenHasNotQuestionsAndAnswers": "No questions and answers available",
+  "previewPhotoScreenUnexpectedFileFormat": "Unknown file format or unable to determine",
+  "previewPhotoScreenEnterComment": "Enter comment text",
+  "recoveryScreenPasswordHasBeenSentOnSpecifiedPhone": "Password sent to the provided phone number",
+  "recoveryScreenTitle": "Password Recovery",
+  "recoveryScreenHintTitle": "Enter Phone Number",
+  "recoveryScreenPhoneLabel": "Phone Number",
+  "recoveryScreenPhoneHint": "* Phone Number",
+  "recoveryScreenSendPasswordButtonTitle": "Send Password",
+  "reviewTemplateFormStepScreenRequiredInputValidation": "Required field",
+  "reviewTemplateFormStepScreenEmptyDropdown": "No values available",
+  "reviewTemplateFormStepScreenDropdownHintText": "Select an answer option",
+  "reviewTemplateFormStepScreenDatePickerCancelText": "Cancel",
+  "reviewTemplateFormStepScreenSaveButtonTitle": "Save",
+  "reviewTemplateFormStepScreenChooseData": "Date Selection",
+  "uploadsScreenTitle": "Uploads",
+  "uploadsScreenEntiyActionReviewStoreTitle": "Review Creation",
+  "uploadsScreenEntiyActionReviewInterruptTitle": "Review Interruption",
+  "uploadsScreenEntiyActionReviewFinishTitle": "Review Completion",
+  "uploadsScreenEntiyActionStepFileUploadTitle": "File",
+  "uploadsScreenEntiyActionLocationUploadTitle": "Location",
+  "uploadsScreenEntiyActionAttachCommentsTitle": "Comments",
+  "uploadsScreenEntiyActionAttachViolationsTitle": "Violations",
+  "uploadsScreenEntiyActionDeletingFilesTitle": "Deleting Files",
+  "uploadsScreenEntiyTypeReviewTitle": "Review",
+  "uploadsScreenEntiyTypeStepFileTitle": "File",
+  "uploadsScreenEntiyTypeLocationTitle": "Location",
+  "uploadsScreenIdHasBeenCopiedMessage": "Identifier copied: {id}",
+  "@uploadsScreenIdHasBeenCopiedMessage": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "articlesScreenTitle": "Objects",
+  "articlesScreenAvailabledArticleNotFoundCanRegister1": "Wait for their addition or \n",
+  "articlesScreenAvailabledArticleNotFoundCanRegister2": "create your own",
+  "articlesScreenAvailabledArticleNotFoundCantRegister": "No available objects, wait for their creation.",
+  "articlesScreenRegisterReviews": "Registering reviews on the server...\n",
+  "articlesScreenRegisterReviewsStatus": "\nRegistered {current} out of {max}",
+  "@articlesScreenRegisterReviewsStatus": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "articlesScreenRegisterReviewsFinish": "Reviews have been successfully registered. File uploads will continue in offline mode. Do not close the app or disconnect from the internet.\n",
+  "articlesScreenRegisterReviewsFinishGoBack": "Return to the app",
+  "articlesScreenRegisterReviewsUnxpectedException": "An error occurred during review registration. Please try again later.\n",
+  "articlesScreenRegisterReviewsUnxpectedExceptionGoBack": "Return to the app",
+  "articlesScreenNetworkException": "No Internet connection.\nTasks are unavailable.",
+  "articlesScreenUploadsButtonTitle": "Uploads",
+  "articlesScreenHasRequestedReviews": "There are requested reviews",
+  "articlesScreenHasNotFinishedReviews": "There are unfinished reviews",
+  "articlesScreenCreateReviewButtonTitle": "Create Review",
+  "articlesScreenSearchFieldLabel": "Search",
+  "articlesScreenSearchEmpty": "Nothing found",
+  "notificationsScreenTitle": "Events",
+  "notificationsScreenYetHaveNotNotifications": "You have no notifications yet",
+  "helpScreenTitle": "Help",
+  "helpScreenQuestionsAndAnswers": "Questions and Answers",
+  "helpScreenWriteEmail": "Write us an email",
+  "helpScreenCallUs": "Call us",
+  "helpScreenExportFilesButtonTitle": "Export Files",
+  "unexpectedException": "An unexpected error occurred",
+  "helpScreenClearedMemoryToast": "{megabytes} MB cleared.",
+  "@helpScreenClearedMemoryToast": {
+    "placeholders": {
+      "megabytes": {
+        "type": "int"
+      }
+    }
+  },
+  "chooseCreatingArticleType": "Choose the article type",
+  "noAvailableArticleTypes": "No available inspection article types for creation.\nContact technical support on the 'Help' page",
+  "choosingCreatingArticleTypeInternetException": "No Internet connection.\nInspection article types are unavailable.",
+  "chooseReviwTemplateInternetException": "Internet connection error",
+  "chooseReviwTemplate": "Choose a template",
+  "noAvailableReviwTemplatesForThisArticle": "There are no available inspection templates for this object",
+  "chooseReviewTemplateNoInternet": "No Internet connection.\nSelection of inspection templates is unavailable.",
+  "chooseReviwTemplateScreenContinueReview": "Click to continue building the review",
+  "chooseReviewTemplateScreenAwaitForContinue": "Awaiting execution",
+  "chooseReviewTemplateScreenAvailable": "Available for independent review",
+  "helpCreateMessageScreenYourMessageSended": "Your message has been sent!",
+  "helpCreateMessageScreenInternetException": "Internet connection error",
+  "helpCreateMessageScreenSendMessage": "Send Message",
+  "helpCreateMessageScreenPhoneNumber": "Phone Number",
+  "helpCreateMessageScreenPhoneNumberDescription": "Please provide a phone number for feedback.",
+  "helpCreateMessageScreenMessage": "Message Text",
+  "helpCreateMessageScreenMessageDescription": "Please state the essence of the request in 2-3 sentences.",
+  "helpCreateMessageScreenSend": "Send",
+  "helpScreenSendMessage": "Send Message",
+  "helpScreenCleanMemory": "Clear Memory",
+  "helpScreenCleanMemoryAreYouSure": "Are you sure you want to delete all files?",
+  "helpScreenCleanMemoryProccessIsIrrevirsable": "Cached and unsent files will be lost, this process is irreversible.",
+  "helpScreenCleanMemoryNo": "No",
+  "helpScreenCleanMemoryYes": "Yes",
+  "helpInsuranceCase": "Insurance Case",
+  "reviewStepsCreateScreenNewStep": "Create a New Step",
+  "reviewStepsCreateScreenName": "Name",
+  "reviewStepsCreateScreenDescription": "Brief Description",
+  "reviewStepsCreateScreenPhoto": "Photo",
+  "reviewStepsCreateScreenVideo": "Video",
+  "reviewStepsCreateScreenDocumentScan": "Scan Document",
+  "reviewStepsCreateScreenFile": "File",
+  "reviewStepsCreateScreenCreate": "Create",
+  "uploadsScreenUploadsScreenIsEmpty": "The upload list is empty",
+  "articlesScreenSendSavedArticles": "Send saved reviews",
+  "articlesScreenArticlesCount": "{howMany,plural, =1{{howMany} review}=2{{howMany} reviews}other{{howMany} reviews}}",
+  "@articlesScreenArticlesCount": {
+    "placeholders": {
+      "howMany": {
+        "type": "int"
+      }
+    }
+  },
+  "articlesScreenAwaitOfSending": "awaiting sending",
+  "articlesScreenSearch": "Search",
+  "articlesScreenNothingFound": "Unfortunately, nothing was found.",
+  "onCenterWidgetUndefined": "undefined",
+  "profileScreenSurname": "Last Name",
+  "profileScreenName": "First Name",
+  "profileScreenPatronymic": "Patronymic",
+  "profileScreenCompanyInn": "Company's TIN",
+  "profileScreenJobTitle": "Position",
+  "profileScreenPhoneNumber": "Mobile Phone",
+  "profileScreenEmail": "Email",
+  "profileScreenPassword": "Password",
+  "profileScreenRepeatPassword": "Repeat Password",
+  "profileScreenSave": "Save",
+  "makeDocumentPageAndroidScan": "Scan",
+  "makeDocumentPageAndroidCropTitle": "Edit",
+  "makeDocumentPageAndroidBWTitle": "B/W",
+  "makeDocumentPageAndroidCropReset": "Reset",
+  "makeDocumentPageTitle": "Create a Document Copy",
+  "makeMediaPageCameraException": "Camera Error",
+  "makeMediaPageStandBy": "Processing and saving is in progress. Do not close the app, wait for completion.",
+  "makeMediaPageCameraAccesException": "No Camera Access",
+  "makeMediaPageOpenAppSettings": "Open App Settings",
+  "makeMediaPageMicAccesException": "No Microphone Access",
+  "makeMediaPageVideo": "Video",
+  "makeMediaPagePhoto": "Photo",
+  "makeMediaPageSomethingWentWrong": "An unexpected error occurred",
+  "makeMediaPageUndefined": "undefined",
+  "makeReportPageLowSpace": "Low on space: {freeDiskSpace} MB remaining.",
+  "@makeReportPageLowSpace": {
+    "placeholders": {
+      "freeDiskSpace": {
+        "type": "String"
+      }
+    }
+  },
+  "makeReportPageHugeFile": "The file {path} exceeds {mbLimit} MB. Sending is not possible.",
+  "@makeReportPageHugeFile": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      },
+      "mbLimit": {
+        "type": "String"
+      }
+    }
+  },
+  "makeReportPageMakePhoto": "Take a Photo",
+  "makeReportPageMakeAdditionalPhoto": "Take Additional Photo",
+  "makeReportPageRemakePhoto": "Retake Photo",
+  "makeReportPageMissedWithComments": "Missed with comments: \r\n{comments}",
+  "@makeReportPageMissedWithComments": {
+    "placeholders": {
+      "comments": {
+        "type": "String"
+      }
+    }
+  },
+  "makeReportPageRemakeVideo": "Record Video",
+  "makeReportPageMakeAdditionalVideo": "Record Additional Video",
+  "makeReportPageTapToWatch": "Tap to Watch",
+  "makeReportPageMakeScan": "Make Scan",
+  "makeReportPageMakeAdditionalScan": "Make Additional Scan",
+  "makeReportPageRemakeScan": "Retake Scan",
+  "makeReportPageScan": "Scan",
+  "makeReportPageAddFile": "Add File",
+  "makeReportPageAddAnotherFile": "Add Another File",
+  "makeReportPageChooseAnotherFile": "Choose Another File",
+  "makeReportPageFile": "File",
+  "makeReportPageFillTheForm": "Fill Out the Form",
+  "makeReportPageFillTheAnotherForm": "Fill Out Another Form",
+  "makeReportPageTapToChange": "Tap to Change",
+  "makeReportPageAdminComment": "Administrator's Comment: '{comment}'",
+  "@makeReportPageAdminComment": {
+    "placeholders": {
+      "comment": {
+        "type": "String"
+      }
+    }
+  },
+  "makeReportPageAreYouSureForExit": "Are you sure you want to exit?",
+  "makeReportPageNo": "No",
+  "makeReportPageYes": "Yes",
+  "makeReportPageAreYouSureForDelete": "Are you sure you want to delete this report?",
+  "makeReportPageLocating": "Locating...",
+  "makeReportPageSendingData": "Sending data to the server...\nPlease wait.",
+  "makeReportPageAddStep": "Add Step",
+  "makeReportPageIssueOccured": "Issue Detected",
+  "makeReportPageSkipAndFinish": "Skip and Finish",
+  "makeReportPageFinish": "Finish",
+  "makeReportPageContinue": "Continue",
+  "makeReportPageSkip": "Skip",
+  "makeReportPageReasonForSkip": "Specify the reason for skipping",
+  "makeReportPageCancel": "Cancel",
+  "makeReportPageSend": "Send",
+  "makeReportPageReportIsCreated": "Thank you! The report is created!",
+  "makeReportPageRepeatableReport": "Repeatable Inspection",
+  "makeReportPageAnotherReportWithThisTemplate": "Would you like to conduct another inspection with this template?",
+  "makeReportPagePopupMessage": "To complete the report, you need to go through the mandatory steps",
+  "articlesScreenSawDownloads": "View Downloads",
+  "articlesScreenNeedToChooseCompany": "You need to choose a company first",
+  "helpScreenNeedToChooseCompany": "You need to choose a company on the 'Objects' screen first",
+  "articleAccountSwitcherChooseCompany": "Choose a Company",
+  "myTextFieldDefaultTextHint": "Enter text",
+  "myTextFieldDefaultNumberHint": "Enter a number",
+  "myTextFieldDefaultDateHint": "Enter a date",
+  "makeReportPageNotEnoughDishSpace": "Not Enough Disk Space",
+  "makeReportPageHaveNotLocationPermission": "Insufficient permissions to determine location",
+  "makeReportPageUndefinedState": "Undefined State",
+  "makeReportPageOpenAppSettings": "Open App Settings",
+  "videoProcessing": "Video Processing",
+  "ok": "OK",
+  "mediaFilesDoNotSaved": "Media files are not saved. Save them?",
+  "tasksScreenAppBarTitle": "Tasks",
+  "tasksScreenTabMyTasksTitle": "My Tasks",
+  "tasksScreenTabAvailableTitle": "Available",
+  "tasksScreenFastFilterAssignedStatusTitle": "Assigned",
+  "tasksScreenFastFilterAtWorkStatusTitle": "In Progress",
+  "tasksScreenFastFilterRejectedStatusTitle": "Rejected",
+  "tasksScreenFastFilterOnInspectionStatusTitle": "On Confirmation",
+  "tasksScreenFastFilterCompletedStatusTitle": "Completed",
+  "taskInfoScreenDescriptionTitle": "Description",
+  "taskInfoScreenArticleTitle": "Object",
+  "taskInfoScreenAddressTitle": "Task Address",
+  "taskInfoScreenFinishDateLimitTitle": "Due Date",
+  "taskInfoScreenTakeToWorkButtonTitle": "Take to Work",
+  "taskInfoRefuseButtonTitle": "Refuse",
+  "tasksRowStartExecutionAt": "Start Execution {date}",
+  "@tasksRowStartExecutionAt": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "isCustomDateFormat": "true",
+        "format": "dd.MM.yy"
+      }
+    }
+  },
+  "tasksRowFinishExecutionAt": "Finish by {date}",
+  "@tasksRowFinishExecutionAt": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "isCustomDateFormat": "true",
+        "format": "dd.MM.yy"
+      }
+    }
+  },
+  "taskInfoScreenExecuteButtonTitle": "Execute",
+  "taskInfoScreenChangeButtonTitle": "Edit",
+  "taskExecutionScreenTakePhotoButtonTitle": "Take Photo",
+  "taskExecutionScreenTakeVideoButtonTitle": "Record Video",
+  "taskExecutionScreenTakeDocumentButtonTitle": "Scan Document",
+  "taskExecutionDescriptionTitle": "Description:",
+  "taskExecutionScreenTakeFileButtonTitle": "Select File",
+  "taskExecutionFinishButtonTitle": "Finish",
+  "taskExecutionStepDetailPhotoExampleTitle": "Photo Example",
+  "taskExecutionStepDetailDescriptionTitle": "Description",
+  "boolDialogDefaultApproveTitle": "Yes",
+  "boolDialogDefaultDenyTitle": "No",
+  "taskExecutionDeleteFileDialogContent": "Are you sure you want to delete the file?\n\nThis action is irreversible.",
+  "taskDetailErrorFailedTitle": "Loading Error, please try again later",
+  "alertDialogDefaultOkTitle": "OK",
+  "taskExecutionNotAllConditionsCompleted": "To complete the task, you need to go through the mandatory steps",
+  "tasksScreenErrorTitle": "Loading Error, please try again later",
+  "addingTask": "Creating Task",
+  "editingTask": "Editing Task",
+  "taskType": "Task Type",
+  "object": "Object",
+  "taskAddress": "Task Address",
+  "deadline": "Due Date",
+  "sendForApproval": "Send for Approval",
+  "startOfExecution": "Start of Execution",
+  "priority": "Priority",
+  "create": "Create",
+  "save": "Save",
+  "pickDate": "Pick a Date",
+  "pickObject": "Pick an Object",
+  "pickTaskType": "Pick a Task Type",
+  "pickPriority": "Pick a Priority",
+  "enterObjectAddress": "Enter Object Address",
+  "low": "Low",
+  "medium": "Medium",
+  "high": "High",
+  "task": "Task",
+  "notifications": "Notifications",
+  "objects": "Objects",
+  "tasks": "Tasks",
+  "help": "Help",
+  "internetConnectionError": "Internet Connection Error",
+  "minimumVideoLengthNotReached": "Minimum Video Length Not Reached",
+  "camera": "Camera",
+  "microphone": "Microphone",
+  "location": "Location",
+  "goToSettingsAndGiveAccessTo": "To ensure proper app functionality, please grant access to:",
+  "accessGranted": "Access Granted",
+  "notAllRequiredPermitsHaveBeenIssued": "Not all required permissions have been granted",
+  "maximumNumberFilesReached": "The maximum number of files of this type has been reached",
+  "createTask": "Create Task",
+  "taskCreatedSuccessfully": "Task Created Successfully",
+  "main": "Main",
+  "showAll": "Show All",
+  "hide": "Hide",
+  "accountSelection": "Account Selection:",
+  "search": "Search",
+  "objectsWithThisNameNotFound": "No objects found with this name",
+  "articleRowStatusCreatedTitle": "Object Created",
+  "articleRowStatusNeedReportTitle": "Report Requested",
+  "articleRowStatusUploadingTitle": "Report Building Started",
+  "articleRowStatusUploadFailedTitle": "Upload Failed",
+  "articleRowStatusWaitCheckingTitle": "Waiting for Check",
+  "articleRowStatusReportDeniedTitle": "Check Denied",
+  "articleRowStatusReportConfirmedTitle": "Check Confirmed",
+  "articleRowStatusUndefinedTitle": "Undefined Status",
+  "goToCreateAnAdditionalStep": "Go to create an additional step?",
+  "example": "Example",
+  "toNextStepButtonTitle": "Next",
+  "required": "required",
+  "createAdditionalStep": "Create Additional Step",
+  "stepInfo": "Step Information",
+  "notAllStepsHaveBeenCompleted": "To complete the check, you need to go through all mandatory steps",
+  "commentText": "Comment Text",
+  "userAgreementAndPrivacyPolicy": "User Agreement and Privacy Policy",
+  "noInternetConnectionNotifications": "No internet connection.\nNotifications are unavailable.",
+  "noAvailableTasks": "No available tasks",
+  "comment": "Comment",
+  "review": "Review",
+  "reviewTemplate": "Review Template",
+  "reviews": "Reviews",
+  "reviewsModalInfoRedirectButton": "Go",
+  "reviewsModalInfoLaterButton": "Later",
+  "noChecksScheduledOrStarted": "No checks are scheduled or started. Please wait for them to be assigned or create one yourself.",
+  "noScheduledChecks": "No scheduled checks",
+  "noInReworkChecks": "There are no checks that need to be finalized",
+  "noStartedChecks": "No checks in progress",
+  "checksWithThisNameNotFound": "No checks found with this name",
+  "all": "All",
+  "turnOnGPS": "Turn on GPS",
+  "turnOnLocationServices": "Turn on HMS Core location services",
+  "noAccessToGetExactLocation": "No access to get exact location",
+  "noAccessToGetLocation": "No access to get location",
+  "fillInTheField": "Fill in the field",
+  "stepType": "Step Type",
+  "itemsMissing": "{itemsName} missing",
+  "@itemsMissing": {
+    "placeholders": {
+      "itemsName": {
+        "type": "String"
+      }
+    }
+  },
+  "itemCreationNotAvailable": "Creation of {itemsName} not available",
+  "@itemCreationNotAvailable": {
+    "placeholders": {
+      "itemsName": {
+        "type": "String"
+      }
+    }
+  },
+  "creationOfItemsIsNotAvailableDescription": "Creation of {itemsName} is not available according to the settings set by the administrator.",
+  "@creationOfItemsIsNotAvailable": {
+    "placeholders": {
+      "itemsName": {
+        "type": "String"
+      }
+    }
+  },
+  "toMain": "Go to main",
+  "necessaryActionsForTask": "Necessary Actions for Task",
+  "missingObjectsName": "objects",
+  "missingReviewsName": "reviews",
+  "missingTasksName": "tasks",
+  "waitForTheirAppointmentOr": "Wait for their assignment or\n",
+  "error": "Error:",
+  "locationDetermining": "Location is being determined",
+  "pleaseWait": "Please wait",
+  "locatingDescription": "The speed of location determination depends on current conditions: satellite availability, cloud cover, and building interference.",
+  "locatingRecommendation": "If you are indoors, move closer to a window or go outside.",
+  "startReviewWithoutInitialLocation": "At the moment, the location could not be determined. Attempts will be made during the Review process.",
+  "accuracyHigh": "High",
+  "accuracyMedium": "Medium",
+  "accuracyLow": "Low",
+  "tryAgain": "Try again",
+  "proceedToReview": "Proceed to Review",
+  "failedToDetermineLocation": "Failed to determine location",
+  "haveNoTaskTypesAvailable": "No task types available",
+  "haveNoTemplatesAvailable": "No templates available",
+  "haveNoArticlesAvailable": "No objects available",
+  "reviewOrTaskCanNotBeCreatedWithoutAvailableArticles": "Without available Objects it is impossible to create a check or task",
+  "independentCreationArticlesIsNotAvailableBySystemSettings": "Independent creation of objects is not available in accordance with the settings set by the administrator",
+  "waitCreationArticlesOr": "Wait for Objects to be added or ",
+  "errorNoConnectionDescription": "Failed to connect to the server, there is no saved data for working offline.",
+  "checkYourInternetConnectionAndTryAgain": "Check your internet connection and try again.",
+  "audioRecording": "Audio recording",
+  "audioFileName": "Audio file name",
+  "audio": "Audio",
+  "picture": "Picture",
+  "numberOfImagesExceeded": "The number of selected images is exceeded. Maximum - ",
+  "audioRecordingRestrictions": "Min {minDuration} sec / Max {maxDuration} sec",
+  "@audioRecordingRestrictions": {
+    "placeholders": {
+      "minDuration": {
+        "type": "String"
+      },
+      "maxDuration": {
+        "type": "String"
+      }
+    }
+  },
+  "minimumAudioLengthNotReached": "The minimum duration of the audio recording has not been reached",
+  "selectAnAction": "Select an action",
+  "copyStep": "Copy step",
+  "createNewStep": "Create a new step",
+  "copyingStep": "Copying a step",
+  "instruction": "Instruction",
+  "copyingStepInstruction": "Copying a step allows you to reproduce repeatable processes",
+  "specifyNewStepName": "Specify a new name for the step",
+  "numberOfCopies": "Number of copies",
+  "copySection": "Copy a section",
+  "copyingSection": "Copying a section",
+  "sectionName": "Section name",
+  "copyingSectionInstruction": "Copying a group of steps allows you to reproduce repeatable processes",
+  "enterNewSectionName": "Enter a new section name",
+  "youCanSpecifyNameCopiedSteps": "You can specify the name of the copied steps in the review step itself",
+  "stepsCompleted": "Steps completed",
+  "enterIdForRegistration": "Enter your registration ID",
+  "enterIdSecondScreen": "Enter your ID",
+  "enterIdForAccountIdentification": "To identify your account, enter your ID.\n",
+  "getIdFromManager": "The ID can be obtained from the Manager, the counterpart, or it can be placed directly on the Object",
+  "enterEmail": "Enter your Email",
+  "enterLastName": "Enter your last name",
+  "enterName": "Enter your first name",
+  "enterCompany": "Enter your company",
+  "registrationSuccess": "Registration was successful",
+  "switchToSignIn": "Switch to authorization",
+  "youWillGetMessageWithPassword": "To login to the app you will receive a message with a password",
+  "youWillGetPasswordAfterVerification": "After confirmation of your account you will receive a message with password for authorization",
+  "waitForVerification": "Wait for verification",
+  "youAreNotLinkedToAnyCompany": "You’re not tied to any company",
+  "toDelegate": "Delegate",
+  "rejection": "Rejection",
+  "rejectionReason": "Reasons for rejection",
+  "contractorPhoneNumber": "Contractor phone number",
+  "newContractorPhoneNumber": "New Contractor phone number",
+  "enterPosition": "Enter the position",
+  "reportRejectedSuccess": "Report rejected",
+  "dataTransferredToResponsible": "Data transferred to the responsible person",
+  "goToReportsNavigation": "Go to Reports",
+  "delegation": "delegation",
+  "enterContractorPhoneNumberToDelegate": "Enter the Contractor’s phone number to delegate.\n",
+  "ifContractorUnregisteredEnterInfoAbout": "If the Contractor is not registered in the system, you need to enter the necessary information about the Contractor",
+  "delegationSuccess": "Delegation was successful",
+  "reportWasDelegatedToChosenContractor": "Report was delegated to the selected Contractor",
+  "delegationImpossible": "Delegation is not possible",
+  "contractorDelegateToIsUnregistered": "The Contractor whose delegation was executed was not registered",
+  "selfContractorCreationIsImpossible": "Self-creation of an contractor is not available according to administrator settings.",
+  "gotToWork": "Taken to Work",
+  "creatingOrUploading": "Creating or Uploading",
+  "sending": "Sending",
+  "delegated": "Delegated",
+  "deleted": "Deleted",
+  "created": "Created",
+  "isNeedRework": "Need rework",
+  "canNotGetToWork": "Impossible to take the report into operation",
+  "reportAlreadyGotToWork": "The report has already been taken over by another Contractor",
+  "chooseAnotherReport": "Select a different report to work with",
+  "signReviewTitle": "Signing Review with Simple Electronic Signature",
+  "signReviewDescription": "By clicking the 'Submit' button, you confirm the relevance, accuracy, and compliance of the information provided in the review.",
+  "linkedCheckBoxPrivacyAgreementFirst": "I accept the ",
+  "linkedCheckBoxPrivacyAgreementSecond": "agreement",
+  "linkedCheckBoxPrivacyAgreementThird": " on the use of a simple electronic signature",
+  "linkedCheckBoxSendButton": "Submit and send",
+  "linkedCheckBoxCancelButton": "Cancel",
+  "articleListSortGroup": "Groups",
+  "articleListSortAll": "All",
+  "articleDetailsToMainArticles": "To main objects",
+  "articleDetailsContainsObjects": "Contains objects: {number}",
+  "@articleDetailsContainsObjects": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "articlePassportHeader": "Object passport",
+  "articlePassportBodyTitle": "Characteristics",
+  "articlePassportArticleType": "Object type",
+  "logOutAndDeleteYourAccount": "Log out and delete your account",
+  "accountDoesNotExist": "Not registered",
+  "confirmTheAction": "Confirm the action",
+  "deleteAccountDialogDescription": "By clicking the confirm button, you exit the application and delete your account along with the relevant personal data.",
+  "confirm": "Confirm"
+}
